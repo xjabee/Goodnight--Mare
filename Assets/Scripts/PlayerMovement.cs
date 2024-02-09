@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; //temporary move to different class alongside the death handler
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -64,6 +65,11 @@ public class PlayerMovement : MonoBehaviour
         {
             IsGrounded = true;
         }
+
+        if(c.transform.tag =="Enemy")
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
     private void OnCollisionExit2D (Collision2D c)
     {
@@ -78,5 +84,16 @@ public class PlayerMovement : MonoBehaviour
         attackHitbox.SetActive(true);
         yield return new WaitForSeconds(attackSpeed);
         attackHitbox.SetActive(false);
+    }
+
+
+    //temporary, move to a different class
+
+    private void OnTriggerEnter2D(Collider2D c) 
+    {
+        if(c.transform.tag =="Deathzone")
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 }

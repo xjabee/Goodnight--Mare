@@ -12,9 +12,11 @@ public class SlimeBehaviour : MonoBehaviour
     SpriteRenderer sr;
     // Start is called before the first frame update
     public GameObject babySlime;
+    Rigidbody2D rb;
     private void Start() 
     {
         sr = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     
