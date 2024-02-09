@@ -7,6 +7,7 @@ TagManager:
   - Weapon
   - Ground
   - Deathzone
+  - Enemy
   layers:
   - Default
   - TransparentFX
