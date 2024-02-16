@@ -61,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D (Collision2D c)
     {
+        Debug.Log("Test");
         if(c.transform.tag == "Ground")
         {
             IsGrounded = true;
