@@ -1,0 +1,15 @@
+{
+	"identifier": "World_Level_2",
+	"uniqueIdentifer": "60d948a0-b0a0-11ee-b967-0f85351adb1a",
+	"x": -1,
+	"y": -1,
+	"width": 504,
+	"height": 256,
+	"bgColor": "#474B67",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"IntGrid_layer.png"
+	],
+	"entities" : {}
+}
