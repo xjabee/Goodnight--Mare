@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
      [Header("Player Stats")]
-    public float speed = 8f;
+    public float speed = 12f;
     [SerializeField] [Range(2f,16f)] private float jumpPower = 3f;
     [Range(1f,0.01f)] public float attackSpeed = 0.45f;
     private float horizontal;
