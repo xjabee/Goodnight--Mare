@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement; //temporary move to different class alongside the death handler
 
@@ -12,30 +13,53 @@ public class PlayerMovement : MonoBehaviour
     [Range(1f,0.01f)] public float attackSpeed = 0.45f;
     private float horizontal;
     
+    private bool canDash = true;
+    private bool isDashing;
+    [SerializeField] private float dashingPower = 24f;
+    [SerializeField] private float dashingTime = 0.2f;
+    [SerializeField] private float dashingCooldown = 1f;
+
+
+    
     public GameObject attackHitbox;
     private bool isFacingRight = true;
     [SerializeField]private bool IsGrounded = false;
     private Rigidbody2D rb;
+    private TrailRenderer tr;
     
 
     void Start() 
     {
         rb = GetComponent<Rigidbody2D>();
+        tr = GetComponent<TrailRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(isDashing)
+        {
+            return;
+        }
         horizontal = Input.GetAxisRaw("Horizontal");
         if(Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
         HitEnemy();
+
+        if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(Dash());
+        }
     }
 
     private void FixedUpdate() 
     {
+        if(isDashing)
+        {
+            return;
+        }
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         Flip();
     }
@@ -69,7 +93,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(c.transform.tag =="Enemy")
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("New Scene");
         }
     }
     private void OnCollisionExit2D (Collision2D c)
@@ -88,13 +112,21 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-    //temporary, move to a different class
-
-    private void OnTriggerEnter2D(Collider2D c) 
+    private IEnumerator Dash()
     {
-        if(c.transform.tag =="Deathzone")
-        {
-            SceneManager.LoadScene("SampleScene");
-        }
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+        rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        tr.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        rb.gravityScale = originalGravity;
+        tr.emitting = false;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
+
+    
 }
