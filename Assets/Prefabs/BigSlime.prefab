@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  activateDistance: 50
+  activateDistance: 5
   pathUpdateSeconds: 0.5
   speed: 3
   jumpForce: 5
@@ -144,6 +144,9 @@ MonoBehaviour:
   isInAir: 0
   directionLookEnabled: 1
   startOffset: {x: 0, y: 0, z: 0}
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &1487614229070198276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +214,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0fe7ac2a10915e84daaa03385c6a7ffb, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

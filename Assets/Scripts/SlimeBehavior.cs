@@ -72,10 +72,10 @@ public class SlimeBehavior : MonoBehaviour
     {
         sr.color = Color.red;
         yield return new WaitForSeconds(0.1f);
-        sr.color = Color.white;
+        sr.color = Color.green;
         yield return new WaitForSeconds(0.1f);
         sr.color = Color.red;
         yield return new WaitForSeconds(0.1f);
-        sr.color = Color.white;
+        sr.color = Color.green;
     }
 }

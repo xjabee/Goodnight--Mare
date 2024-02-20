@@ -26,16 +26,20 @@ public class EnemyAI : MonoBehaviour
 
     private Path path;
     private int currentWaypoint = 0;
-    [SerializeField] public RaycastHit2D isGrounded;
+    [SerializeField] private LayerMask jumpableGround;
+
     Seeker seeker;
     Rigidbody2D rb;
     private bool isOnCoolDown;
+
+    private Collider2D coll;
 
     public void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<Collider2D>();
         isJumping = false;
         isInAir = false;
         isOnCoolDown = false; 
@@ -73,9 +77,9 @@ public class EnemyAI : MonoBehaviour
         }
 
         // See if colliding with anything
-        startOffset = transform.position - new Vector3(0f, GetComponent<Collider2D>().bounds.extents.y + jumpCheckOffset, transform.position.z);
-        isGrounded = Physics2D.Raycast(startOffset, -Vector3.up, 0.05f);
-
+        // startOffset = transform.position - new Vector3(0f, GetComponent<Collider2D>().bounds.extents.y + jumpCheckOffset, transform.position.z);
+        // isGrounded = Physics2D.Raycast(startOffset, -Vector3.up, 0.5f);
+        RaycastHit2D isGrounded = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.down, 0.1f, jumpableGround);
         // Direction Calculation
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
         Vector2 force = direction * speed;
@@ -94,6 +98,7 @@ public class EnemyAI : MonoBehaviour
         }
         if (isGrounded)
         {
+            Debug.Log("I'm grounded");
             isJumping = false;
             isInAir = false; 
         }

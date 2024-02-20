@@ -23,29 +23,48 @@ public class PlayerMovement : MonoBehaviour
     
     public GameObject attackHitbox;
     private bool isFacingRight = true;
-    [SerializeField]private bool IsGrounded = false;
+    [SerializeField] private LayerMask jumpableGround;
     private Rigidbody2D rb;
     private TrailRenderer tr;
+    private Collider2D coll;
+
+    private bool isWallJumping;
+    private float wallJumpingDirection;
+    private float wallJumpingTime = 0.2f;
+    private float wallJumpingCounter;
+    private float wallJumpingDuration = 0.4f;
+    private bool isWallSliding;
+    private float wallSlidingSpeed = 2f;
+    [SerializeField]private Vector2 wallJumpingPower = new Vector2(20f,16f);
     
 
     void Start() 
     {
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<TrailRenderer>();
+        coll = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        RaycastHit2D isGrounded = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.down, 0.1f, jumpableGround);
+        RaycastHit2D isSlidingRight = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.right, 0.1f, jumpableGround);
+        RaycastHit2D isSlidingLeft = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.left, 0.1f, jumpableGround);
+        
+
         if(isDashing)
         {
             return;
         }
         horizontal = Input.GetAxisRaw("Horizontal");
-        if(Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
+
+        WallSide(isGrounded,isSlidingLeft,isSlidingRight);
+        WallJump();
         HitEnemy();
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
@@ -61,7 +80,11 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        Flip();
+        if(!isWallJumping)
+        {
+            Flip();
+        }
+            
     }
 
     void HitEnemy()
@@ -85,22 +108,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D (Collision2D c)
     {
-        Debug.Log("Test");
-        if(c.transform.tag == "Ground")
-        {
-            IsGrounded = true;
-        }
 
         if(c.transform.tag =="Enemy")
         {
             SceneManager.LoadScene("New Scene");
-        }
-    }
-    private void OnCollisionExit2D (Collision2D c)
-    {
-        if(c.transform.tag == "Ground")
-        {
-            IsGrounded = false;
         }
     }
 
@@ -109,6 +120,61 @@ public class PlayerMovement : MonoBehaviour
         attackHitbox.SetActive(true);
         yield return new WaitForSeconds(attackSpeed);
         attackHitbox.SetActive(false);
+    }
+
+    private void WallSide(RaycastHit2D isGrounded,RaycastHit2D isSlidingLeft,RaycastHit2D isSlidingRight)
+    {
+        
+        if(isSlidingLeft || isSlidingRight && !isGrounded && horizontal != 0f)
+        {
+            Debug.Log("I'm WALL SLIDING");
+            isWallSliding = true;
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+        else
+        {
+            isWallSliding = false;
+        }
+    }
+
+    private void WallJump()
+    {
+
+        if(isWallSliding)
+        {
+            isWallJumping = false;
+            wallJumpingDirection = -transform.localScale.x;
+            wallJumpingCounter = wallJumpingTime;
+            CancelInvoke(nameof(StopWallJumping));
+        }
+        else
+        {
+            wallJumpingCounter -= Time.deltaTime;
+        }
+        if(Input.GetKeyDown(KeyCode.Space) && wallJumpingCounter > 0f)
+        {
+            isWallJumping = true;
+           //rb.AddForce(-wallJumpingDirection * wallJumpingPower);
+            rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
+            Debug.Log(rb.velocity);
+            wallJumpingCounter = 0f;
+
+            if(transform.localScale.x != wallJumpingDirection)
+            {
+                isFacingRight = !isFacingRight;
+                Vector3 LocalScale = transform.localScale;
+                LocalScale.x *= -1f;
+                transform.localScale = LocalScale;
+            }
+            Invoke(nameof(StopWallJumping), wallJumpingDuration);
+        }
+        
+
+    }
+
+    private void StopWallJumping()
+    {
+        isWallJumping = false;
     }
 
 
