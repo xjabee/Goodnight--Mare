@@ -82,14 +82,16 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         if(!isWallJumping)
         {
-            Flip();
+            
         }
+
+        Flip();
             
     }
 
     void HitEnemy()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) || Input.GetKey(KeyCode.Z))
         {
             StartCoroutine(Attack());
         }
@@ -159,13 +161,13 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log(rb.velocity);
             wallJumpingCounter = 0f;
 
-            if(transform.localScale.x != wallJumpingDirection)
-            {
-                isFacingRight = !isFacingRight;
-                Vector3 LocalScale = transform.localScale;
-                LocalScale.x *= -1f;
-                transform.localScale = LocalScale;
-            }
+            // if(transform.localScale.x != wallJumpingDirection)
+            // {
+            //     isFacingRight = !isFacingRight;
+            //     Vector3 LocalScale = transform.localScale;
+            //     LocalScale.x *= -1f;
+            //     transform.localScale = LocalScale;
+            // }
             Invoke(nameof(StopWallJumping), wallJumpingDuration);
         }
         

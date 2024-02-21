@@ -479,8 +479,14 @@ MonoBehaviour:
   speed: 8
   jumpPower: 16
   attackSpeed: 0.401
+  dashingPower: 24
+  dashingTime: 0.2
+  dashingCooldown: 1
   attackHitbox: {fileID: 235550176185045191}
-  IsGrounded: 0
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 0
+  wallJumpingPower: {x: 20, y: 16}
 --- !u!50 &6807680808609548452
 Rigidbody2D:
   serializedVersion: 4
@@ -506,7 +512,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &2701016044092521638
 BoxCollider2D:
