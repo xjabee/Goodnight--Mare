@@ -566,7 +566,7 @@
 			"worldX": -1,
 			"worldY": -1,
 			"worldDepth": 0,
-			"pxWid": 256,
+			"pxWid": 1920,
 			"pxHei": 384,
 			"__bgColor": "#262B44",
 			"bgColor": null,
