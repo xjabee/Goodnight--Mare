@@ -36,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
     [SerializeField]private Vector2 wallJumpingPower = new Vector2(20f,16f);
+
+    private Animator am;
     
 
     void Start() 
@@ -43,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         tr = GetComponent<TrailRenderer>();
         coll = GetComponent<Collider2D>();
+        am = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -58,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         horizontal = Input.GetAxisRaw("Horizontal");
+        am.SetFloat("Speed", Mathf.Abs(horizontal));
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
@@ -119,8 +123,10 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator Attack()
     {
+        am.SetBool("isAttacking", true);
         attackHitbox.SetActive(true);
-        yield return new WaitForSeconds(attackSpeed);
+        yield return new WaitForSeconds(0.2f);
+        am.SetBool("isAttacking", false);
         attackHitbox.SetActive(false);
     }
 
