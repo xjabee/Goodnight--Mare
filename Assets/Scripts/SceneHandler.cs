@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
+
+    public LevelLoader levelLoader;
     // Start is called before the first frame update
     void Start()
     {   
@@ -19,7 +21,7 @@ public class SceneHandler : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadScene("Stage 1");
+        levelLoader.LoadNextLevel(1);
     }
 
     public void ExitApp()
@@ -30,7 +32,7 @@ public class SceneHandler : MonoBehaviour
     public void NextLevel()
     {
         //In the future load scene to a random number if the team decides that is the play.
-        SceneManager.LoadScene("Stage 2");
+        levelLoader.LoadNextLevel(2);
     }
 
 }

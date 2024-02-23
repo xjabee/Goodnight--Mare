@@ -6,6 +6,7 @@ public class PlayerSceneHandler : MonoBehaviour
 {
 
     [SerializeField]private SceneHandler sh;
+    
 
     private void NextLevel()
     {
