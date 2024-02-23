@@ -28,37 +28,8 @@ public class SlimeBehavior : MonoBehaviour
     }
 
     
-    private void OnTriggerEnter2D(Collider2D c) 
-    {
-        
-        if(c.transform.tag == "Weapon")
-        {
-            StartCoroutine(GotHit());
-            if (HP <= 0)
-            {
-                if(babySlime == null)
-                {
-                    Destroy(this.gameObject);
-                }
-                else
-                {
-                    SpawnBaby();
-                    SpawnBaby();
-                    SpawnBaby();
-                    Destroy(this.gameObject);
-                }
-                
-                
-            }
-            else
-            {
-                HP--;
-            }
-            
-        }
-    }
 
-    void SpawnBaby()
+    public void SpawnBaby()
     {
         Vector3 randomSpawn = new Vector3( 
                     (Random.Range(this.transform.position.x + 1, this.transform.position.x - 1 ))
@@ -66,16 +37,9 @@ public class SlimeBehavior : MonoBehaviour
                     ,(Random.Range(this.transform.position.z + 1, this.transform.position.z - 1 )));
 
         Instantiate(babySlime, randomSpawn, Quaternion.identity);
+        Instantiate(babySlime, randomSpawn, Quaternion.identity);
+        Instantiate(babySlime, randomSpawn, Quaternion.identity);
         
     }
-    IEnumerator GotHit()
-    {
-        sr.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        sr.color = Color.green;
-        yield return new WaitForSeconds(0.1f);
-        sr.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        sr.color = Color.green;
-    }
+    
 }

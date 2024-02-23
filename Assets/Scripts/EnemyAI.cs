@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
+using System.Linq.Expressions;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -33,6 +34,8 @@ public class EnemyAI : MonoBehaviour
     private bool isOnCoolDown;
 
     private Collider2D coll;
+
+    
 
     public void Start()
     {
@@ -151,6 +154,9 @@ public class EnemyAI : MonoBehaviour
         yield return new WaitForSeconds(1f);
         isOnCoolDown = false;
     }
+
+
+    
 
     //make method to check if player is within area of aggro -> then follow player
 

@@ -1,13 +1,8 @@
 fileFormatVersion: 2
-guid: aff4716a1d59ed847851d0d3778f67ab
+guid: cb72b913c11938948a4c5e004d115882
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:AnimationClip
-      assembly: UnityEngine.AnimationModule
-      name: Attack
-    second: {fileID: 7400000, guid: 8740d2a89963c4443b8f90fc12fe002c, type: 2}
+  externalObjects: {}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -28,7 +23,7 @@ ScriptedImporter:
     normalMapFilter: 0
     flipGreenChannel: 0
     swizzle: 50462976
-    isReadable: 1
+    isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
@@ -102,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638442650046487981
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -126,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Mare_AttackFXonly_Frame_0
+  - name: attack_Emission_Frame_0
     originalName: 
     pivot: {x: 0.18421051, y: -0.2702703}
     alignment: 9
@@ -137,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 38
       height: 37
-    spriteID: 3fd92e6c98d3b994a85bc23c868d98f1
+    spriteID: 5a1e2c6d5aafe7e44a6e6813981aa7f4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -146,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 71, y: 4}
-  - name: Mare_AttackFXonly_Frame_1
+  - name: attack_Emission_Frame_1
     originalName: 
     pivot: {x: 0.20338985, y: -0.2702703}
     alignment: 9
@@ -157,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 59
       height: 37
-    spriteID: 70fec6c910cf14043a82aa793d4bda6c
+    spriteID: 87471c478ddfa2846bd1410b983701f7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -166,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Mare_AttackFXonly_Frame_2
+  - name: attack_Emission_Frame_2
     originalName: 
     pivot: {x: 0.21311477, y: -0.3125}
     alignment: 9
@@ -177,7 +172,7 @@ ScriptedImporter:
       y: 49
       width: 61
       height: 32
-    spriteID: 47b38b22d3c8c6b4e970c4537f75db58
+    spriteID: 298dd82f85864b0408b387b6d2d8c728
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -186,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 49}
-  - name: Mare_AttackFXonly_Frame_3
+  - name: attack_Emission_Frame_3
     originalName: 
     pivot: {x: 0.27083337, y: -0.4}
     alignment: 9
@@ -197,7 +192,7 @@ ScriptedImporter:
       y: 49
       width: 48
       height: 25
-    spriteID: b8bacb4aa5a402c49b16b608e9962c1f
+    spriteID: f6e52dba08ee6d14194f5fbd544a1c36
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -206,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 73, y: 49}
-  - name: Mare_AttackFXonly_Frame_4
+  - name: attack_Emission_Frame_4
     originalName: 
     pivot: {x: 0.56521744, y: -0.44}
     alignment: 9
@@ -217,7 +212,7 @@ ScriptedImporter:
       y: 89
       width: 23
       height: 25
-    spriteID: 752be0777dc143e479ba48eeefda4a7e
+    spriteID: 0eb159f94509b0943b668c984f07676d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -229,106 +224,56 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1929864426
-    name: Mare_AttackFXonly
+    guid: 79288348
+    name: attack_Emission
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Mare_AttackFXonly_Frame_0
+    - name: attack_Emission_Frame_0
       frameIndex: 0
       cellRect:
         x: 40
         y: 10
         width: 38
         height: 37
-      spriteId: 3fd92e6c98d3b994a85bc23c868d98f1
-    - name: Mare_AttackFXonly_Frame_1
+      spriteId: 5a1e2c6d5aafe7e44a6e6813981aa7f4
+    - name: attack_Emission_Frame_1
       frameIndex: 1
       cellRect:
         x: 35
         y: 10
         width: 59
         height: 37
-      spriteId: 70fec6c910cf14043a82aa793d4bda6c
-    - name: Mare_AttackFXonly_Frame_2
+      spriteId: 87471c478ddfa2846bd1410b983701f7
+    - name: attack_Emission_Frame_2
       frameIndex: 2
       cellRect:
         x: 34
         y: 10
         width: 61
         height: 32
-      spriteId: 47b38b22d3c8c6b4e970c4537f75db58
-    - name: Mare_AttackFXonly_Frame_3
+      spriteId: 298dd82f85864b0408b387b6d2d8c728
+    - name: attack_Emission_Frame_3
       frameIndex: 3
       cellRect:
         x: 34
         y: 10
         width: 48
         height: 25
-      spriteId: b8bacb4aa5a402c49b16b608e9962c1f
-    - name: Mare_AttackFXonly_Frame_4
+      spriteId: f6e52dba08ee6d14194f5fbd544a1c36
+    - name: attack_Emission_Frame_4
       frameIndex: 4
       cellRect:
         x: 34
         y: 11
         width: 23
         height: 25
-      spriteId: 752be0777dc143e479ba48eeefda4a7e
+      spriteId: 0eb159f94509b0943b668c984f07676d
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Server
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   generatePhysicsShape: 0
-  secondarySpriteTextures:
-  - name: _Emission
-    texture: {fileID: -8328923581568760697, guid: cb72b913c11938948a4c5e004d115882, type: 3}
+  secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 94, y: 51}

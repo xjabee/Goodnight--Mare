@@ -7,7 +7,12 @@ using UnityEngine.SceneManagement; //temporary move to different class alongside
 public class PlayerMovement : MonoBehaviour
 {
 
-     [Header("Player Stats")]
+    /*Remove This Later
+
+    */
+    public GameObject EnableUI;
+
+    [Header("Player Stats")]
     public float speed = 12f;
     [SerializeField] [Range(2f,16f)] private float jumpPower = 3f;
     [Range(1f,0.01f)] public float attackSpeed = 0.45f;
@@ -36,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
     [SerializeField]private Vector2 wallJumpingPower = new Vector2(20f,16f);
-
     private Animator am;
     
 
@@ -46,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
         tr = GetComponent<TrailRenderer>();
         coll = GetComponent<Collider2D>();
         am = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -66,10 +71,17 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
-
+        am.SetBool("isGrounded",isGrounded);
+        if(isSlidingLeft || isSlidingRight)
+        {
+            am.SetBool("isOnWall", true);
+        }
+        else
+        {
+            am.SetBool("isOnWall", false); 
+        }
         WallSide(isGrounded,isSlidingLeft,isSlidingRight);
         WallJump();
-        HitEnemy();
 
         if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
@@ -93,13 +105,6 @@ public class PlayerMovement : MonoBehaviour
             
     }
 
-    void HitEnemy()
-    {
-        if(Input.GetMouseButtonDown(0) || Input.GetKey(KeyCode.Z))
-        {
-            StartCoroutine(Attack());
-        }
-    }
 
     private void Flip()
     {
@@ -121,14 +126,9 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    IEnumerator Attack()
-    {
-        am.SetBool("isAttacking", true);
-        attackHitbox.SetActive(true);
-        yield return new WaitForSeconds(0.2f);
-        am.SetBool("isAttacking", false);
-        attackHitbox.SetActive(false);
-    }
+    
+    
+
 
     private void WallSide(RaycastHit2D isGrounded,RaycastHit2D isSlidingLeft,RaycastHit2D isSlidingRight)
     {
@@ -180,6 +180,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+
     private void StopWallJumping()
     {
         isWallJumping = false;
@@ -200,6 +201,19 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+
+    //remove everything from here to another script ty
+    private void OnTriggerEnter2D(Collider2D c) 
+    {
+        if(c.transform.tag == "End Zone")
+        {
+            EnableUI.SetActive(true);
+        }
+    }
+    public void ResetScene()
+    {
+        SceneManager.LoadScene("New Scene");
     }
 
     
