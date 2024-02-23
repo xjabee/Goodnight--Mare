@@ -11,7 +11,7 @@ public class DeathZone : MonoBehaviour
     {
         if(c.transform.tag =="Player")
         {
-            SceneManager.LoadScene("New Scene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         if(c.transform.tag =="Enemy")
         {

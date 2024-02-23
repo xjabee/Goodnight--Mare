@@ -34,5 +34,9 @@ public class SceneHandler : MonoBehaviour
         //In the future load scene to a random number if the team decides that is the play.
         levelLoader.LoadNextLevel(2);
     }
+    public void ResetLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
 }

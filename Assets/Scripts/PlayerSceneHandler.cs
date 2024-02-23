@@ -6,7 +6,7 @@ public class PlayerSceneHandler : MonoBehaviour
 {
 
     [SerializeField]private SceneHandler sh;
-    
+
 
     private void NextLevel()
     {
@@ -21,6 +21,14 @@ public class PlayerSceneHandler : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D (Collision2D c)
+    {
 
+        if(c.transform.tag =="Enemy")
+        {
+            sh.ResetLevel();
+
+        }
+    }
 
 }

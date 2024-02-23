@@ -108,14 +108,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D (Collision2D c)
-    {
-
-        if(c.transform.tag =="Enemy")
-        {
-            SceneManager.LoadScene("New Scene");
-        }
-    }
+    
 
     
     
