@@ -71,15 +71,6 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
-        am.SetBool("isGrounded",isGrounded);
-        if(isSlidingLeft || isSlidingRight)
-        {
-            am.SetBool("isOnWall", true);
-        }
-        else
-        {
-            am.SetBool("isOnWall", false); 
-        }
         WallSide(isGrounded,isSlidingLeft,isSlidingRight);
         WallJump();
 
