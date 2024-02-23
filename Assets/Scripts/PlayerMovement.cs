@@ -195,13 +195,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     //remove everything from here to another script ty
-    private void OnTriggerEnter2D(Collider2D c) 
-    {
-        if(c.transform.tag == "End Zone")
-        {
-            EnableUI.SetActive(true);
-        }
-    }
     public void ResetScene()
     {
         SceneManager.LoadScene("New Scene");

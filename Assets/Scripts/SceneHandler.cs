@@ -26,4 +26,11 @@ public class SceneHandler : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void NextLevel()
+    {
+        //In the future load scene to a random number if the team decides that is the play.
+        SceneManager.LoadScene("Stage 2");
+    }
+
 }
