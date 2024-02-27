@@ -42,7 +42,9 @@ public class PlayerMovement : MonoBehaviour
     private float wallSlidingSpeed = 2f;
     [SerializeField]private Vector2 wallJumpingPower = new Vector2(20f,16f);
     private Animator am;
-    
+    public float jumpTimer = 0.2f;
+    public float jumpCooldown = 0.2f;
+    private bool canJump = true;
 
     void Start() 
     {
@@ -60,6 +62,20 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D isSlidingRight = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.right, 0.1f, jumpableGround);
         RaycastHit2D isSlidingLeft = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.left, 0.1f, jumpableGround);
         
+        if(isGrounded == false)
+        {
+            jumpTimer -= Time.deltaTime;
+            if(jumpTimer > 0)
+            {
+                canJump = true;
+            }
+            else canJump = false;
+        }
+        if(isGrounded == true)
+        {
+            jumpTimer = jumpCooldown;
+            canJump = true;
+        }
 
         if(isDashing)
         {
@@ -67,9 +83,10 @@ public class PlayerMovement : MonoBehaviour
         }
         horizontal = Input.GetAxisRaw("Horizontal");
         am.SetFloat("Speed", Mathf.Abs(horizontal));
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if(Input.GetKeyDown(KeyCode.Space) && canJump)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
+            canJump = false;
         }
         WallSide(isGrounded,isSlidingLeft,isSlidingRight);
         WallJump();
