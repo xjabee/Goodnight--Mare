@@ -35,10 +35,18 @@ public class SlimeBehavior : MonoBehaviour
                     (Random.Range(this.transform.position.x + 1, this.transform.position.x - 1 ))
                     ,(Random.Range(this.transform.position.y + 1, this.transform.position.y - 1 ))
                     ,(Random.Range(this.transform.position.z + 1, this.transform.position.z - 1 )));
+                    Vector3 randomSpawn1 = new Vector3( 
+                    (Random.Range(this.transform.position.x + 1, this.transform.position.x - 1 ))
+                    ,(Random.Range(this.transform.position.y + 1, this.transform.position.y - 1 ))
+                    ,(Random.Range(this.transform.position.z + 1, this.transform.position.z - 1 )));
+                    Vector3 randomSpawn2 = new Vector3( 
+                    (Random.Range(this.transform.position.x + 1, this.transform.position.x - 1 ))
+                    ,(Random.Range(this.transform.position.y + 1, this.transform.position.y - 1 ))
+                    ,(Random.Range(this.transform.position.z + 1, this.transform.position.z - 1 )));
 
         Instantiate(babySlime, randomSpawn, Quaternion.identity);
-        Instantiate(babySlime, randomSpawn, Quaternion.identity);
-        Instantiate(babySlime, randomSpawn, Quaternion.identity);
+        Instantiate(babySlime, randomSpawn1, Quaternion.identity);
+        Instantiate(babySlime, randomSpawn2, Quaternion.identity);
         
     }
     

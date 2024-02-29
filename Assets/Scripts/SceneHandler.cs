@@ -10,7 +10,6 @@ public class SceneHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {   
-        
     }
 
     // Update is called once per frame
@@ -36,7 +35,14 @@ public class SceneHandler : MonoBehaviour
     }
     public void ResetLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if(SceneManager.GetSceneByName("Essentials").isLoaded)
+        {
+            SceneManager.UnloadSceneAsync("Essentials");
+            SceneManager.LoadScene("Essentials", LoadSceneMode.Single);
+        }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex,LoadSceneMode.Additive);
+        
+
     }
 
 }

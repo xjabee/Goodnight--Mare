@@ -273,6 +273,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   wallJumpingPower: {x: 20, y: 16}
+  jumpTimer: 0.15
+  jumpCooldown: 0.15
 --- !u!96 &2040174014468904750
 TrailRenderer:
   serializedVersion: 3

@@ -1,11 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerSceneHandler : MonoBehaviour
 {
 
     [SerializeField]private SceneHandler sh;
+    private Transform startPosition;
+
+    private void Start() {
+        startPosition = GameObject.FindGameObjectWithTag("Start Position").transform;
+        this.gameObject.transform.position = startPosition.transform.position;
+    }
 
 
     private void NextLevel()

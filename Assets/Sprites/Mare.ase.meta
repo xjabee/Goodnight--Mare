@@ -143,7 +143,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Mare_Frame_0
     originalName: 
-    pivot: {x: 0.18421051, y: -0.2702703}
+    pivot: {x: 0.22333285, y: 0.3579278}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 140, y: 4}
   - name: Mare_Frame_1
     originalName: 
-    pivot: {x: 0.20338985, y: -0.2702703}
+    pivot: {x: 0.23271154, y: 0.3816065}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Mare_Frame_2
     originalName: 
-    pivot: {x: 0.21311477, y: -0.3125}
+    pivot: {x: 0.23190008, y: 0.3896076}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 71, y: 4}
   - name: Mare_Frame_3
     originalName: 
-    pivot: {x: 0.27083337, y: -0.4}
+    pivot: {x: 0.2688036, y: 0.50000036}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,8 +223,8 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 4}
   - name: Mare_Frame_4
     originalName: 
-    pivot: {x: 0.56521744, y: -0.44}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -243,8 +243,8 @@ ScriptedImporter:
     uvTransform: {x: 63, y: 88}
   - name: Mare_Frame_5
     originalName: 
-    pivot: {x: 0.56521744, y: -0.44}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -263,8 +263,8 @@ ScriptedImporter:
     uvTransform: {x: 94, y: 88}
   - name: Mare_Frame_6
     originalName: 
-    pivot: {x: 0.56000006, y: -0.32258064}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -283,8 +283,8 @@ ScriptedImporter:
     uvTransform: {x: -5, y: 41}
   - name: Mare_Frame_7
     originalName: 
-    pivot: {x: 0.57142866, y: -0.35714287}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -303,8 +303,8 @@ ScriptedImporter:
     uvTransform: {x: 23, y: 80}
   - name: Mare_Frame_8
     originalName: 
-    pivot: {x: 0.54166675, y: -0.3448276}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -323,8 +323,8 @@ ScriptedImporter:
     uvTransform: {x: 165, y: 41}
   - name: Mare_Frame_9
     originalName: 
-    pivot: {x: 0.48148155, y: -0.5185185}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -343,8 +343,8 @@ ScriptedImporter:
     uvTransform: {x: 95, y: 37}
   - name: Mare_Frame_10
     originalName: 
-    pivot: {x: 0.56000006, y: -0.32258064}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -363,8 +363,8 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 41}
   - name: Mare_Frame_11
     originalName: 
-    pivot: {x: 0.56000006, y: -0.32258064}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -383,8 +383,8 @@ ScriptedImporter:
     uvTransform: {x: -7, y: 80}
   - name: Mare_Frame_12
     originalName: 
-    pivot: {x: 0.57142866, y: -0.35714287}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -403,8 +403,8 @@ ScriptedImporter:
     uvTransform: {x: 196, y: 41}
   - name: Mare_Frame_13
     originalName: 
-    pivot: {x: 0.54166675, y: -0.3448276}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -423,8 +423,8 @@ ScriptedImporter:
     uvTransform: {x: 61, y: 38}
   - name: Mare_Frame_14
     originalName: 
-    pivot: {x: 0.48148155, y: -0.5185185}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -443,8 +443,8 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 37}
   - name: Mare_Frame_15
     originalName: 
-    pivot: {x: 0.4210526, y: -0.39285713}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -463,8 +463,8 @@ ScriptedImporter:
     uvTransform: {x: 153, y: 88}
   - name: Mare_Frame_16
     originalName: 
-    pivot: {x: 0.4210526, y: -0.4074074}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -483,8 +483,8 @@ ScriptedImporter:
     uvTransform: {x: 31, y: 124}
   - name: Mare_Frame_17
     originalName: 
-    pivot: {x: 0.4210526, y: -0.44}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -503,8 +503,8 @@ ScriptedImporter:
     uvTransform: {x: 113, y: 124}
   - name: Mare_Frame_18
     originalName: 
-    pivot: {x: 0.39999995, y: -0.44}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -523,8 +523,8 @@ ScriptedImporter:
     uvTransform: {x: 85, y: 124}
   - name: Mare_Frame_19
     originalName: 
-    pivot: {x: 0.4210526, y: -0.44}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -543,8 +543,8 @@ ScriptedImporter:
     uvTransform: {x: 140, y: 124}
   - name: Mare_Frame_20
     originalName: 
-    pivot: {x: 0.4210526, y: -0.4074074}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -563,8 +563,8 @@ ScriptedImporter:
     uvTransform: {x: 58, y: 124}
   - name: Mare_Frame_21
     originalName: 
-    pivot: {x: 0.44999993, y: -0.4074074}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -583,8 +583,8 @@ ScriptedImporter:
     uvTransform: {x: 125, y: 88}
   - name: Mare_Frame_22
     originalName: 
-    pivot: {x: 0.4210526, y: -0.39285713}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -603,8 +603,8 @@ ScriptedImporter:
     uvTransform: {x: 180, y: 88}
   - name: Mare_Frame_23
     originalName: 
-    pivot: {x: 0.4210526, y: -0.39285713}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -623,8 +623,8 @@ ScriptedImporter:
     uvTransform: {x: 207, y: 88}
   - name: Mare_Frame_24
     originalName: 
-    pivot: {x: 0.4210526, y: -0.39285713}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2

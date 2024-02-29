@@ -7,10 +7,8 @@ using UnityEngine.SceneManagement; //temporary move to different class alongside
 public class PlayerMovement : MonoBehaviour
 {
 
-    /*Remove This Later
 
-    */
-    public GameObject EnableUI;
+    public GameObject EnableUI; // remove this later
 
     [Header("Player Stats")]
     public float speed = 12f;
@@ -45,7 +43,6 @@ public class PlayerMovement : MonoBehaviour
     public float jumpTimer = 0.2f;
     public float jumpCooldown = 0.2f;
     private bool canJump = true;
-
     void Start() 
     {
         rb = GetComponent<Rigidbody2D>();
@@ -62,6 +59,23 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D isSlidingRight = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.right, 0.1f, jumpableGround);
         RaycastHit2D isSlidingLeft = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.left, 0.1f, jumpableGround);
         
+        if(!PauseManager.isGamePaused)
+        {
+            horizontal = Input.GetAxisRaw("Horizontal");
+            am.SetFloat("Speed", Mathf.Abs(horizontal));
+            if(Input.GetKeyDown(KeyCode.Space) && canJump)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpPower);
+                canJump = false;
+            }
+            WallSide(isGrounded,isSlidingLeft,isSlidingRight);
+            WallJump();
+
+            if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+            {
+                StartCoroutine(Dash());
+            }
+        }
         if(isGrounded == false)
         {
             jumpTimer -= Time.deltaTime;
@@ -81,20 +95,7 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
-        horizontal = Input.GetAxisRaw("Horizontal");
-        am.SetFloat("Speed", Mathf.Abs(horizontal));
-        if(Input.GetKeyDown(KeyCode.Space) && canJump)
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpPower);
-            canJump = false;
-        }
-        WallSide(isGrounded,isSlidingLeft,isSlidingRight);
-        WallJump();
-
-        if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-        {
-            StartCoroutine(Dash());
-        }
+        
     }
 
     private void FixedUpdate() 

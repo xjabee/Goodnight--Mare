@@ -18,7 +18,7 @@ public class LevelLoader : MonoBehaviour
         transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(transitionTime);
-
-        SceneManager.LoadScene(levelIndex);
+        SceneManager.LoadScene("Essentials", LoadSceneMode.Single);
+        SceneManager.LoadScene(levelIndex, LoadSceneMode.Additive);
     }
 }

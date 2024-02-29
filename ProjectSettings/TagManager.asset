@@ -9,6 +9,8 @@ TagManager:
   - Deathzone
   - Enemy
   - End Zone
+  - World Confiner
+  - Start Position
   layers:
   - Default
   - TransparentFX

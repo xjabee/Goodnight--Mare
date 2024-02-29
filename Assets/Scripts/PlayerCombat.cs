@@ -18,10 +18,14 @@ public class PlayerCombat : MonoBehaviour
     }
     private void Update() 
     {
-        if(Input.GetMouseButtonDown(0))
+        if(!PauseManager.isGamePaused)
         {
-          am.SetTrigger("Attack");
+            if(Input.GetMouseButtonDown(0))
+            {
+            am.SetTrigger("Attack");
+            }
         }
+        
     }
 
     void Attack()
