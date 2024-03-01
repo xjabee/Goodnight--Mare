@@ -6,10 +6,13 @@ public class PlayerCombat : MonoBehaviour
 {
     private Animator am;
     public Transform attackPoint;
-    public float attackRange = 0.5f;
+    public float attackRange = 10;
     public LayerMask enemyLayers;
     public float attackSpeed = .4f;
+    [SerializeField]private float attackCooldown = .4f;
+    float attackCooldownCheck;
     float attackTime;
+    bool canAttack = true;
     CourageSystem courageSystem;
 
 
@@ -17,14 +20,24 @@ public class PlayerCombat : MonoBehaviour
     {
         am = GetComponent<Animator>();
         courageSystem = GameManager.instance.courageSystem;
+        attackCooldownCheck = attackCooldown;
     }
     private void Update() 
     {
+        
+        if(attackCooldownCheck <= 0)
+        {
+            canAttack = true;
+        }
+        attackCooldownCheck-=Time.deltaTime;
+        
         if(!PauseManager.isGamePaused)
         {
-            if(Input.GetMouseButtonDown(0))
-            {
-            am.SetTrigger("Attack");
+            if(Input.GetMouseButtonDown(0) && canAttack)
+            { 
+                am.SetTrigger("Attack");
+                canAttack = false;
+                attackCooldownCheck = attackCooldown;
             }
         }
         
@@ -56,10 +69,7 @@ public class PlayerCombat : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D c) 
     {
-        if(c.transform.tag == "Enemy")
-        {
-            c.GetComponent<EnemyCombat>().TakeDamage();
-        }
+        
 
         if(c.transform.tag == "Courage Entity")
         {

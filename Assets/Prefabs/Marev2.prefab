@@ -235,7 +235,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10
+  m_Mass: 200
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 4
@@ -453,6 +453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26cc38f650bcfe943a66be2ca8e12387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  courageCount: 3
+  currentCourage: 0
 --- !u!1 &4615637373612795710
 GameObject:
   m_ObjectHideFlags: 0
