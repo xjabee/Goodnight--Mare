@@ -15327,6 +15327,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   wallJumpingPower: {x: 20, y: 16}
+  am: {fileID: 0}
   jumpTimer: 0.5
   jumpCooldown: 1
   KBForce: 0

@@ -71,6 +71,10 @@ public class PlayerSceneHandler : MonoBehaviour
 
     IEnumerator GetHurt()
     {
+        playerMovement.am.SetTrigger("Hurt");
+        Time.timeScale = 0.2f;
+        yield return new WaitForSeconds(0.05f);
+        Time.timeScale = 1f;
         Debug.Log("I got hit");
         // Time.timeScale = 0;
         // yield return new WaitForSeconds(0.2f);

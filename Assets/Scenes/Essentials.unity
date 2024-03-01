@@ -203,8 +203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hearts: []
   hpPrefab: {fileID: 77166559586606169, guid: 6fde832aa9dcddb489d023e0b43296c4, type: 3}
-  fullHeart: {fileID: 6992856681093157560, guid: b793587e861999f4398ddb3036067d0b, type: 3}
-  emptyHeart: {fileID: 3838772120524722294, guid: 8683ec0f05e243e4595bb8fa323c1067, type: 3}
+  fullHeart: {fileID: -3868364314965872529, guid: 53e9a474efd7cc5479fa6957e7997a16, type: 3}
+  emptyHeart: {fileID: 4425079996334552555, guid: 53e9a474efd7cc5479fa6957e7997a16, type: 3}
   heartPrefab: {fileID: 1266710608215934185, guid: f4901ee2906fe324b851124b47e007a1, type: 3}
   hpArea: {fileID: 399785687}
 --- !u!114 &108661105
@@ -1349,6 +1349,14 @@ PrefabInstance:
       propertyPath: sh
       value: 
       objectReference: {fileID: 415048390}
+    - target: {fileID: 9025251526434167104, guid: 26547cd00b536c64aa842e63d8a6fc2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.293
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025251526434167104, guid: 26547cd00b536c64aa842e63d8a6fc2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.022
+      objectReference: {fileID: 0}
     - target: {fileID: 9097991907356764926, guid: 26547cd00b536c64aa842e63d8a6fc2b, type: 3}
       propertyPath: m_Enabled
       value: 0

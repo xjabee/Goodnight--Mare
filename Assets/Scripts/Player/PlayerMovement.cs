@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
     [SerializeField]private Vector2 wallJumpingPower = new Vector2(20f,16f);
-    private Animator am;
+    public Animator am;
     public float jumpTimer = 0.2f;
     public float jumpCooldown = 0.2f;
     private bool canJump = true;

@@ -11,6 +11,11 @@ ScriptedImporter:
   - first:
       type: UnityEngine:AnimationClip
       assembly: UnityEngine.AnimationModule
+      name: Hurt
+    second: {fileID: 7400000, guid: bc0c025ed854c7e44ac86db6c5564da5, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
       name: Idle
     second: {fileID: 7400000, guid: 9f7a12b3c9967c143bcd40a4133eab25, type: 2}
   - first:
@@ -117,7 +122,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638443467158342179
+  platformSettingsDirtyTick: 638449546796464088
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -643,8 +648,8 @@ ScriptedImporter:
     uvTransform: {x: 85, y: 124}
   - name: Mare_Frame_25
     originalName: 
-    pivot: {x: 0.38095233, y: -0.39285713}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -663,8 +668,8 @@ ScriptedImporter:
     uvTransform: {x: 127, y: 88}
   - name: Mare_Frame_26
     originalName: 
-    pivot: {x: 0.29166663, y: -0.39285713}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -683,8 +688,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 88}
   - name: Mare_Frame_27
     originalName: 
-    pivot: {x: 0.29166663, y: -0.39285713}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -703,8 +708,8 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 88}
   - name: Mare_Frame_28
     originalName: 
-    pivot: {x: 0.4210526, y: -0.39285713}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
