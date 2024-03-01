@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement; //temporary move to different class alongside the death handler
@@ -43,6 +44,11 @@ public class PlayerMovement : MonoBehaviour
     public float jumpTimer = 0.2f;
     public float jumpCooldown = 0.2f;
     private bool canJump = true;
+
+    public float KBForce;
+    public float KBCounter;
+    public float KBTotalTime;
+    public bool KnockFromRight;
     void Start() 
     {
         rb = GetComponent<Rigidbody2D>();
@@ -61,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
         
         if(!PauseManager.isGamePaused)
         {
+            
             horizontal = Input.GetAxisRaw("Horizontal");
             am.SetFloat("Speed", Mathf.Abs(horizontal));
             if(Input.GetKeyDown(KeyCode.Space) && canJump)
@@ -104,14 +111,36 @@ public class PlayerMovement : MonoBehaviour
         {
             return;
         }
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        if(KBCounter <= 0)
+        {
+            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
+        else
+        {
+            if(KnockFromRight == true)
+            {
+                rb.velocity = new Vector2(-KBForce, KBForce);
+                
+            }
+            if(KnockFromRight == false)
+            {
+                rb.velocity = new Vector2(KBForce, KBForce);
+            }
+            KBCounter -= Time.deltaTime;
+        }
+        
         if(!isWallJumping)
         {
             
         }
 
         Flip();
-            
+
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            Knockback();
+        }
+        
     }
 
 
@@ -145,6 +174,11 @@ public class PlayerMovement : MonoBehaviour
         {
             isWallSliding = false;
         }
+    }
+
+    public void Knockback()
+    {
+        rb.AddForce(Vector2.left * 1000000, ForceMode2D.Impulse);
     }
 
     private void WallJump()

@@ -51,7 +51,7 @@ public class EnemyCombat : MonoBehaviour
 
     void KillEnemy()
     {
-        Instantiate(courage, transform);
+        Instantiate(courage);
         
         if(sb == null)
         {
@@ -68,6 +68,14 @@ public class EnemyCombat : MonoBehaviour
         
         
         Destroy(this.gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D c) 
+    {
+        if(c.transform.tag == ("Weapon"))
+        {
+            TakeDamage();
+        }
     }
 
     IEnumerator GotHit()

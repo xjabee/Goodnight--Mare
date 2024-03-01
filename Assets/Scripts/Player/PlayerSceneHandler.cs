@@ -9,12 +9,32 @@ public class PlayerSceneHandler : MonoBehaviour
     [SerializeField]private SceneHandler sh;
     private Transform startPosition;
     CourageSystem courageSystem;
+    public GameObject[] enemyCol;
+    Rigidbody2D rb;
+    PlayerMovement playerMovement;
+    bool isDamageable =true;
+
+    
+
     private void Start() {
         startPosition = GameObject.FindGameObjectWithTag("Start Position").transform;
         this.gameObject.transform.position = startPosition.transform.position;
         courageSystem = GameManager.instance.courageSystem;
-    }
+        playerMovement = GameManager.instance.playerMovement;
 
+        
+    }
+    private void Update() {
+        enemyCol = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach(GameObject enemy in enemyCol)
+        {
+            Physics2D.IgnoreCollision(enemy.transform.GetComponent<Collider2D>(),this.gameObject.transform.GetComponent<Collider2D>(),true);
+        }
+    }
+    private void FixedUpdate() 
+    {
+        
+    }
 
     private void NextLevel()
     {
@@ -27,23 +47,35 @@ public class PlayerSceneHandler : MonoBehaviour
         {
             NextLevel();
         }
-    }
-
-    private void OnCollisionEnter2D (Collision2D c)
-    {
-
-        if(c.transform.tag =="Enemy")
+        if(c.transform.tag =="Enemy" && isDamageable)
         {
             
+            playerMovement.KBCounter = playerMovement.KBTotalTime;
+            if(c.transform.position.x <= transform.position.x)
+            {
+                playerMovement.KnockFromRight = false;
+            }
+            if(c.transform.position.x >= transform.position.x)
+            {
+                playerMovement.KnockFromRight = true;
+            }
+
+            StartCoroutine(GetHurt());
             courageSystem.RemoveCourage(1);
         }
     }
 
+
+
     IEnumerator GetHurt()
     {
-        Physics2D.IgnoreLayerCollision(7,8);
-        yield return new WaitForSeconds(2f);
-        Physics2D.IgnoreLayerCollision(7,8, false);
+        Debug.Log("I got hit");
+        // Time.timeScale = 0;
+        // yield return new WaitForSeconds(0.2f);
+        // Time.timeScale = 1;
+        isDamageable = false;
+        yield return new WaitForSeconds(playerMovement.KBTotalTime);
+        isDamageable = true;
 
     }
 

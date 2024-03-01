@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public CourageSystem courageSystem;
     public UIManager uIManager;
     public PrefabManager prefabManager;
+    public PlayerMovement playerMovement;
 
 
 }
