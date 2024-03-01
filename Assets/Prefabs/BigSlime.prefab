@@ -239,3 +239,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 3
+  knockbackStr: 5
+  delay: 0.15
+  courage: {fileID: 8222941088446115488, guid: fb7a4f592d839174683b676d6ceb1ece, type: 3}

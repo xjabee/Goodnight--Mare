@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
 
     public Transform playerTransform;
     public SceneHandler scheneHandler;
+    public CourageSystem courageSystem;
+    public UIManager uIManager;
+    public PrefabManager prefabManager;
 
 
 }

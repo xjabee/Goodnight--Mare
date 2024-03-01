@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 4078749239797906275}
   - component: {fileID: 6051305530317077671}
   - component: {fileID: 8941407199015266811}
+  - component: {fileID: -9055224545472836266}
   m_Layer: 0
   m_Name: Marev2
   m_TagString: Player
@@ -212,7 +213,7 @@ BoxCollider2D:
   m_Offset: {x: 0.0027610064, y: 0.23499998}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.4210526, y: -0.44}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.19, y: 0.25}
     newSize: {x: 0.19, y: 0.25}
     adaptiveTilingThreshold: 0.5
@@ -440,6 +441,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sh: {fileID: 0}
+--- !u!114 &-9055224545472836266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346406070307063577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26cc38f650bcfe943a66be2ca8e12387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4615637373612795710
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,11 +10,13 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
     public float attackSpeed = .4f;
     float attackTime;
+    CourageSystem courageSystem;
 
 
     private void Start() 
     {
         am = GetComponent<Animator>();
+        courageSystem = GameManager.instance.courageSystem;
     }
     private void Update() 
     {
@@ -58,6 +60,14 @@ public class PlayerCombat : MonoBehaviour
         {
             c.GetComponent<EnemyCombat>().TakeDamage();
         }
+
+        if(c.transform.tag == "Courage Entity")
+        {
+            Destroy(c.gameObject);
+            courageSystem.AddCourage(1);
+            //add exp /whatver
+        }
+        
     }
     void CheckAttack()
     {

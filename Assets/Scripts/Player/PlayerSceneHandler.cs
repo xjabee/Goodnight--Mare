@@ -8,10 +8,11 @@ public class PlayerSceneHandler : MonoBehaviour
 
     [SerializeField]private SceneHandler sh;
     private Transform startPosition;
-
+    CourageSystem courageSystem;
     private void Start() {
         startPosition = GameObject.FindGameObjectWithTag("Start Position").transform;
         this.gameObject.transform.position = startPosition.transform.position;
+        courageSystem = GameManager.instance.courageSystem;
     }
 
 
@@ -33,9 +34,17 @@ public class PlayerSceneHandler : MonoBehaviour
 
         if(c.transform.tag =="Enemy")
         {
-            sh.ResetLevel();
-
+            
+            courageSystem.RemoveCourage(1);
         }
+    }
+
+    IEnumerator GetHurt()
+    {
+        Physics2D.IgnoreLayerCollision(7,8);
+        yield return new WaitForSeconds(2f);
+        Physics2D.IgnoreLayerCollision(7,8, false);
+
     }
 
 }

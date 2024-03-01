@@ -1,5 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Common;
+using System.Diagnostics;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,6 +17,8 @@ public class EnemyCombat : MonoBehaviour
     public int HP = 3;
     [SerializeField] private float knockbackStr = 5f, delay = 0.15f;
     Vector3 direction = new Vector3(1, 0, 0);
+
+    public GameObject courage;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +51,7 @@ public class EnemyCombat : MonoBehaviour
 
     void KillEnemy()
     {
+        Instantiate(courage, transform);
         
         if(sb == null)
         {
