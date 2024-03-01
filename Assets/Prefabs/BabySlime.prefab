@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4506063438633611334}
   - component: {fileID: 4835848677151718320}
   - component: {fileID: 3330458102962687537}
+  - component: {fileID: -4407403949024791037}
   m_Layer: 7
   m_Name: BabySlime
   m_TagString: Enemy
@@ -242,3 +243,38 @@ MonoBehaviour:
   knockbackStr: 5
   delay: 0.15
   courage: {fileID: 8222941088446115488, guid: fb7a4f592d839174683b676d6ceb1ece, type: 3}
+--- !u!58 &-4407403949024791037
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8479182778696834649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5

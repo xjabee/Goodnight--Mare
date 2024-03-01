@@ -26,9 +26,11 @@ public class PlayerSceneHandler : MonoBehaviour
     }
     private void Update() {
         enemyCol = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject weaponCol = GameObject.FindGameObjectWithTag("Weapon");
         foreach(GameObject enemy in enemyCol)
         {
             Physics2D.IgnoreCollision(enemy.transform.GetComponent<Collider2D>(),this.gameObject.transform.GetComponent<Collider2D>(),true);
+            Physics2D.IgnoreLayerCollision(7,9);
         }
     }
     private void FixedUpdate() 

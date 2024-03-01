@@ -6,7 +6,7 @@ public class PlayerCombat : MonoBehaviour
 {
     private Animator am;
     public Transform attackPoint;
-    public float attackRange = 10;
+    public float attackRange = 1000;
     public LayerMask enemyLayers;
     public float attackSpeed = .4f;
     [SerializeField]private float attackCooldown = .4f;
@@ -14,6 +14,7 @@ public class PlayerCombat : MonoBehaviour
     float attackTime;
     bool canAttack = true;
     CourageSystem courageSystem;
+    Collider2D[] hitEnemies;
 
 
     private void Start() 
@@ -81,7 +82,7 @@ public class PlayerCombat : MonoBehaviour
     }
     void CheckAttack()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach(Collider2D enemy in hitEnemies)
         {

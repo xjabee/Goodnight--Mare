@@ -70,13 +70,6 @@ public class EnemyCombat : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D c) 
-    {
-        if(c.transform.tag == ("Weapon"))
-        {
-            TakeDamage();
-        }
-    }
 
     IEnumerator GotHit()
     {
