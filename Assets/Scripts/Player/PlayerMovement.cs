@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
     private bool isWallSliding;
-    private float wallSlidingSpeed = 2f;
+    [SerializeField]private float wallSlidingSpeed = 2f;
     [SerializeField]private Vector2 wallJumpingPower = new Vector2(20f,16f);
     public Animator am;
     public float jumpTimer = 0.2f;
@@ -55,7 +55,6 @@ public class PlayerMovement : MonoBehaviour
         tr = GetComponent<TrailRenderer>();
         coll = GetComponent<Collider2D>();
         am = GetComponent<Animator>();
-        
     }
 
     // Update is called once per frame
@@ -117,15 +116,8 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if(KnockFromRight == true)
-            {
-                rb.velocity = new Vector2(-KBForce, KBForce);
-                
-            }
-            if(KnockFromRight == false)
-            {
-                rb.velocity = new Vector2(KBForce, KBForce);
-            }
+            StartCoroutine(Knockback());
+            
             KBCounter -= Time.deltaTime;
         }
         
@@ -136,10 +128,7 @@ public class PlayerMovement : MonoBehaviour
 
         Flip();
 
-        if(Input.GetKeyDown(KeyCode.G))
-        {
-            Knockback();
-        }
+        
         
     }
 
@@ -172,14 +161,12 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            wallSlidingSpeed = 2f;
             isWallSliding = false;
+            
         }
     }
 
-    public void Knockback()
-    {
-        rb.AddForce(Vector2.left * 1000000, ForceMode2D.Impulse);
-    }
 
     private void WallJump()
     {
@@ -237,6 +224,25 @@ public class PlayerMovement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+
+    private IEnumerator Knockback()
+    {
+        if(KnockFromRight == true)
+            {
+                tr.emitting = true;
+                rb.velocity = new Vector2(-KBForce, KBForce);
+                yield return new WaitForSeconds(KBTotalTime);
+                tr.emitting = false;
+                
+            }
+            if(KnockFromRight == false)
+            {
+                tr.emitting = true;
+                rb.velocity = new Vector2(KBForce, KBForce);
+                yield return new WaitForSeconds(KBTotalTime);
+                tr.emitting = false;
+            }
     }
 
     //remove everything from here to another script ty
