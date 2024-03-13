@@ -71,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
             am.SetFloat("Speed", Mathf.Abs(horizontal));
             if(Input.GetKeyDown(KeyCode.Space) && canJump)
             {
+                am.SetTrigger("Falling");
                 rb.velocity = new Vector2(rb.velocity.x, jumpPower);
                 canJump = false;
             }

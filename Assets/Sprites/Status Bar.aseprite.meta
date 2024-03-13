@@ -1,0 +1,2435 @@
+fileFormatVersion: 2
+guid: 85d8aac96a79c524aafe44745acb3552
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Status Bar_Frame_33
+    originalName: 
+    pivot: {x: 0.3223684, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 633
+      y: 69
+      width: 152
+      height: 30
+    spriteID: f37434d5231e829418968e1c584a9324
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 633, y: 69}
+  - name: Status Bar_Frame_34
+    originalName: 
+    pivot: {x: 0.30065358, y: -1.0357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 263
+      width: 153
+      height: 28
+    spriteID: 92109001b6c265a43b33f31da7dedaf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 263}
+  - name: Status Bar_Frame_35
+    originalName: 
+    pivot: {x: 0.30666664, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 69
+      width: 150
+      height: 31
+    spriteID: 121646dac1fa3c248a3a380d40875ec4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 69}
+  - name: Status Bar_Frame_36
+    originalName: 
+    pivot: {x: 0.2987013, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 398
+      y: 4
+      width: 154
+      height: 31
+    spriteID: 55606225d04cc3b498cadb3683d3e236
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 398, y: 4}
+  - name: Status Bar_Frame_37
+    originalName: 
+    pivot: {x: 0.31612903, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 4
+      width: 155
+      height: 31
+    spriteID: af79ce5ae40cca647bebbb6d6ca680d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 4}
+  - name: Status Bar_Frame_38
+    originalName: 
+    pivot: {x: 0.30065358, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 722
+      y: 4
+      width: 153
+      height: 31
+    spriteID: 67f2dd08fe7ecb243a397a13f344f8a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 722, y: 4}
+  - name: Status Bar_Frame_39
+    originalName: 
+    pivot: {x: 0.2987013, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 4
+      width: 154
+      height: 31
+    spriteID: 4f81fabb5c03097479e1b02d15bb2f9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 560, y: 4}
+  - name: Status Bar_Frame_40
+    originalName: 
+    pivot: {x: 0.3223684, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 793
+      y: 69
+      width: 152
+      height: 30
+    spriteID: de0aa99512473e44b9dbc6bf6ff8ff47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 793, y: 69}
+  - name: Status Bar_Frame_41
+    originalName: 
+    pivot: {x: 0.31506845, y: -1.0357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 263
+      width: 146
+      height: 28
+    spriteID: 577114081363b2f42806c6b653e4ceb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 263}
+  - name: Status Bar_Frame_42
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 469
+      y: 108
+      width: 146
+      height: 31
+    spriteID: 64fe4cea5587f4b419e5343e7532a2bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 469, y: 108}
+  - name: Status Bar_Frame_43
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 623
+      y: 108
+      width: 146
+      height: 31
+    spriteID: 072c3850992edaf4bae2d7d0ac9cfbdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 623, y: 108}
+  - name: Status Bar_Frame_44
+    originalName: 
+    pivot: {x: 0.32885906, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 69
+      width: 149
+      height: 31
+    spriteID: 12b2396372a2dd94988806a12446265d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 69}
+  - name: Status Bar_Frame_45
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 777
+      y: 108
+      width: 146
+      height: 31
+    spriteID: ee70d26c5b45ecd4084e9d0b71442641
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 777, y: 108}
+  - name: Status Bar_Frame_46
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 147
+      width: 146
+      height: 31
+    spriteID: 13e2cd55d30a8414190a6be594ff4f7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 147}
+  - name: Status Bar_Frame_47
+    originalName: 
+    pivot: {x: 0.32885906, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 466
+      y: 186
+      width: 149
+      height: 30
+    spriteID: c5e7e6d7bcccaec42820ccc3d236811a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 466, y: 186}
+  - name: Status Bar_Frame_48
+    originalName: 
+    pivot: {x: 0.31972787, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 147
+      height: 31
+    spriteID: b3f13e1c4e0615e45999a1045e15732f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: Status Bar_Frame_49
+    originalName: 
+    pivot: {x: 0.31506845, y: -1.0357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 319
+      y: 263
+      width: 146
+      height: 28
+    spriteID: a9aec6ad495ebc94caa39d26e5a1252d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 319, y: 263}
+  - name: Status Bar_Frame_50
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 147
+      width: 146
+      height: 31
+    spriteID: fcbffcba73e640b439e65836426f4be4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 147}
+  - name: Status Bar_Frame_51
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 312
+      y: 147
+      width: 146
+      height: 31
+    spriteID: f71cd2d7cdba6b143b2fe6f637483cca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 312, y: 147}
+  - name: Status Bar_Frame_52
+    originalName: 
+    pivot: {x: 0.32885906, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 319
+      y: 69
+      width: 149
+      height: 31
+    spriteID: 47a6ea87bb5aeb044a11b779cb57a3af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 319, y: 69}
+  - name: Status Bar_Frame_53
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 466
+      y: 147
+      width: 146
+      height: 31
+    spriteID: fb0eaca0d3b3abb4d96986486f76193f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 466, y: 147}
+  - name: Status Bar_Frame_54
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 620
+      y: 147
+      width: 146
+      height: 31
+    spriteID: a27d4fc93253886498cce45564776dbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 620, y: 147}
+  - name: Status Bar_Frame_55
+    originalName: 
+    pivot: {x: 0.32885906, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 623
+      y: 186
+      width: 149
+      height: 30
+    spriteID: 3dd57e57e283e48499a822f23dd35e84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 623, y: 186}
+  - name: Status Bar_Frame_56
+    originalName: 
+    pivot: {x: 0.31972787, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 108
+      width: 147
+      height: 31
+    spriteID: 1c5c3aa444fcd14468af28cd27236fda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 108}
+  - name: Status Bar_Frame_57
+    originalName: 
+    pivot: {x: 0.31506845, y: -1.0357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 263
+      width: 146
+      height: 28
+    spriteID: ca79c6715a4b3454fb5bb0a4809f7c35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 263}
+  - name: Status Bar_Frame_58
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 774
+      y: 147
+      width: 146
+      height: 31
+    spriteID: e1c6a730e42908b4d89387beb8879121
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 774, y: 147}
+  - name: Status Bar_Frame_59
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 186
+      width: 146
+      height: 31
+    spriteID: a91ee33fee261b543a56017831d9ae87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 186}
+  - name: Status Bar_Frame_60
+    originalName: 
+    pivot: {x: 0.32885906, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 476
+      y: 69
+      width: 149
+      height: 31
+    spriteID: f77dc4c3c9b0d844fbb35a706bdf2ceb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 476, y: 69}
+  - name: Status Bar_Frame_61
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 186
+      width: 146
+      height: 31
+    spriteID: 6939dcafc6417a9409328faaf0685bea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 186}
+  - name: Status Bar_Frame_62
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 312
+      y: 186
+      width: 146
+      height: 31
+    spriteID: 5fedb1448ab0d874b9734105f440d40a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 312, y: 186}
+  - name: Status Bar_Frame_63
+    originalName: 
+    pivot: {x: 0.32885906, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 186
+      width: 149
+      height: 30
+    spriteID: 09a73f567f5d91e4f9370d63535d16b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 780, y: 186}
+  - name: Status Bar_Frame_64
+    originalName: 
+    pivot: {x: 0.31972787, y: -0.9354838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 314
+      y: 108
+      width: 147
+      height: 31
+    spriteID: 62aa9579387ccba4596e176e48adf035
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 314, y: 108}
+  - name: Status Bar_Frame_65
+    originalName: 
+    pivot: {x: 0.31506845, y: -1.0740741}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 627
+      y: 263
+      width: 146
+      height: 27
+    spriteID: 992253bcf4506794690cb1196a7a8f7e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 627, y: 263}
+  - name: Status Bar_Frame_66
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.96666664}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 318
+      y: 225
+      width: 146
+      height: 30
+    spriteID: 1671e8839d127ed438939befe1c6583e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 318, y: 225}
+  - name: Status Bar_Frame_67
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.96666664}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 225
+      width: 146
+      height: 30
+    spriteID: 1d4eb2f38b107a641bda73ac18e2b9f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 225}
+  - name: Status Bar_Frame_68
+    originalName: 
+    pivot: {x: 0.32885906, y: -0.96666664}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 225
+      width: 149
+      height: 30
+    spriteID: 25bfb28af8bee8e44a75b7504fc4976b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 225}
+  - name: Status Bar_Frame_69
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.96666664}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 626
+      y: 225
+      width: 146
+      height: 30
+    spriteID: cde82eaf657d9ad49814418d85309117
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 626, y: 225}
+  - name: Status Bar_Frame_70
+    originalName: 
+    pivot: {x: 0.31506845, y: -0.96666664}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 225
+      width: 146
+      height: 30
+    spriteID: 17b8e90eb9d6f264cad626ed61ec63a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 780, y: 225}
+  - name: Status Bar_Frame_71
+    originalName: 
+    pivot: {x: 0.32885906, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 225
+      width: 149
+      height: 30
+    spriteID: f69a26e5124edc741aef688bf88d2f4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 225}
+  - name: Status Bar_Frame_72
+    originalName: 
+    pivot: {x: 0.31506845, y: -1.0740741}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 781
+      y: 263
+      width: 146
+      height: 27
+    spriteID: 52ee1c0c1b0c60f43b2b5cec40e397dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 781, y: 263}
+  - name: Status Bar_Frame_73
+    originalName: 
+    pivot: {x: 0.28571427, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 722
+      y: 43
+      width: 140
+      height: 10
+    spriteID: 9541f3b750fa0c247953382a4b757009
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 722, y: 43}
+  - name: Status Bar_Frame_74
+    originalName: 
+    pivot: {x: 0.28571427, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 398
+      y: 43
+      width: 140
+      height: 10
+    spriteID: e26391fe7c85d63419eb128a0c25d5be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 398, y: 43}
+  - name: Status Bar_Frame_75
+    originalName: 
+    pivot: {x: 0.28571427, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 43
+      width: 140
+      height: 10
+    spriteID: 19be6768d9ee8da4d93ae03baf375adb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 560, y: 43}
+  - name: Status Bar_Frame_76
+    originalName: 
+    pivot: {x: 0.28571427, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 43
+      width: 140
+      height: 10
+    spriteID: 8fe380ea392a0274780a137a48df93cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 43}
+  - name: Status Bar_Frame_77
+    originalName: 
+    pivot: {x: 0.28571427, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 520
+      y: 427
+      width: 140
+      height: 10
+    spriteID: 263511fe4ed2ef64bb920f61e9980f10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 520, y: 427}
+  - name: Status Bar_Frame_78
+    originalName: 
+    pivot: {x: 0.28571427, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 668
+      y: 427
+      width: 140
+      height: 10
+    spriteID: c3facc666048ea7438a2969ac75900ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 668, y: 427}
+  - name: Status Bar_Frame_79
+    originalName: 
+    pivot: {x: 0.28571427, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 816
+      y: 427
+      width: 140
+      height: 10
+    spriteID: ed41d7897bbc2b249aa63acc35b0fb59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 816, y: 427}
+  - name: Status Bar_Frame_80
+    originalName: 
+    pivot: {x: 0.28571427, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 451
+      width: 140
+      height: 10
+    spriteID: 5c60dc06ee374b64b844ab8666a9738c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 451}
+  - name: Status Bar_Frame_81
+    originalName: 
+    pivot: {x: 0.5112108, y: -0.052631583}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 223
+      height: 57
+    spriteID: 18f31103c8b060743b86f503149bb7b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Status Bar_Frame_0
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 883
+      y: 4
+      width: 59
+      height: 56
+    spriteID: cb5261c1a2ea96c47ac8d67d3d6c258f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 883, y: 4}
+  - name: Status Bar_Frame_1
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 950
+      y: 4
+      width: 59
+      height: 56
+    spriteID: 634fb2c97e1082f4ea47a39237fbf3fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 950, y: 4}
+  - name: Status Bar_Frame_2
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 7f7575c5396584145a7760f0f4c7a0f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 299}
+  - name: Status Bar_Frame_3
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 29d5f898845a44649aaea2e09d1410de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 299}
+  - name: Status Bar_Frame_4
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 754ff914d8fb1fe419ea8809ac42be08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 299}
+  - name: Status Bar_Frame_5
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 9d0be01169d84954aaf9eb61dbd1f47f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 299}
+  - name: Status Bar_Frame_6
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 299
+      width: 59
+      height: 56
+    spriteID: b1e86da42ca744e4abf74b1b5bfb53ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 299}
+  - name: Status Bar_Frame_7
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 1eb8de43f52ee714f9996cea2b794d35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 299}
+  - name: Status Bar_Frame_8
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 299
+      width: 59
+      height: 56
+    spriteID: d661b899491986d46af137b3a1f02346
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 299}
+  - name: Status Bar_Frame_9
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 473
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 8b1ddd47da6f06b4982b4b818e6c8d1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 473, y: 299}
+  - name: Status Bar_Frame_10
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 540
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 2af41d1d82352e84096d8c6bf924ba13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 540, y: 299}
+  - name: Status Bar_Frame_11
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 607
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 1adf7ba8e0909b747864a72f3a010db3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 607, y: 299}
+  - name: Status Bar_Frame_12
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 674
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 28938c4352f2f804d83fea2dde30faa5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 674, y: 299}
+  - name: Status Bar_Frame_13
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 741
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 12eec4c075e492f458cb620ded946163
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 741, y: 299}
+  - name: Status Bar_Frame_14
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 808
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 10a21ae5db3ef64408ecf7472e926b84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 808, y: 299}
+  - name: Status Bar_Frame_15
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 875
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 4fa19aaaca153fa49b3912409f44dce7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 875, y: 299}
+  - name: Status Bar_Frame_16
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 942
+      y: 299
+      width: 59
+      height: 56
+    spriteID: 8dceb7da583f3a34eb87c71682763f4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 942, y: 299}
+  - name: Status Bar_Frame_17
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 363
+      width: 59
+      height: 56
+    spriteID: 2ffa7efbf40c02547868aa42dbb87fad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 363}
+  - name: Status Bar_Frame_18
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 363
+      width: 59
+      height: 56
+    spriteID: 39f60b2eb5d77f544a6c3d59fe6be3f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 363}
+  - name: Status Bar_Frame_19
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 363
+      width: 59
+      height: 56
+    spriteID: 3dae7c47f33941f44a34d302cb8235c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 363}
+  - name: Status Bar_Frame_20
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 363
+      width: 59
+      height: 56
+    spriteID: bf2752f53f5d7364b97b028a7a77bc62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 363}
+  - name: Status Bar_Frame_21
+    originalName: 
+    pivot: {x: 1.9322034, y: -0.05357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 363
+      width: 59
+      height: 56
+    spriteID: 2d3cc810a7b6c594d8bc574db2e1653f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 363}
+  - name: Status Bar_Frame_22
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 511
+      y: 388
+      width: 164
+      height: 16
+    spriteID: 26090d28742cfab4597556570d7a0f6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 511, y: 388}
+  - name: Status Bar_Frame_23
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 683
+      y: 388
+      width: 164
+      height: 16
+    spriteID: e2a45a4eda10a884f8d1fd31c5fb6c25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 683, y: 388}
+  - name: Status Bar_Frame_24
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 855
+      y: 388
+      width: 164
+      height: 16
+    spriteID: 8615cb6f380616644bd6b9a0dd252699
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 855, y: 388}
+  - name: Status Bar_Frame_25
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 427
+      width: 164
+      height: 16
+    spriteID: 34ed6473defaba24dacfa72c8b42aafb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 427}
+  - name: Status Bar_Frame_26
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 427
+      width: 164
+      height: 16
+    spriteID: 3130fd25cf346754e995814fe8e69b00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 427}
+  - name: Status Bar_Frame_27
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 348
+      y: 427
+      width: 164
+      height: 16
+    spriteID: 55a6aa5b3b1a6aa4186ec5e8939f797e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 348, y: 427}
+  - name: Status Bar_Frame_28
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.23529413}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 363
+      width: 164
+      height: 17
+    spriteID: f1086482bd9110d4d95089b473037d5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 363}
+  - name: Status Bar_Frame_29
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.23529413}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 511
+      y: 363
+      width: 164
+      height: 17
+    spriteID: d27b5f8311d14c64691560f5011b0483
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 511, y: 363}
+  - name: Status Bar_Frame_30
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.23529413}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 683
+      y: 363
+      width: 164
+      height: 17
+    spriteID: 3ada29ee9f24c504f8acaebe5fafc9bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 683, y: 363}
+  - name: Status Bar_Frame_31
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.23529413}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 855
+      y: 363
+      width: 164
+      height: 17
+    spriteID: 19b61ec1f582f774294267e08cd587ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 855, y: 363}
+  - name: Status Bar_Frame_32
+    originalName: 
+    pivot: {x: 0.33536586, y: -0.23529413}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 339
+      y: 388
+      width: 164
+      height: 17
+    spriteID: 93c2579657501e2479871bd908fa4136
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 339, y: 388}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1895112691
+    name: Status Bar
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Status Bar_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 66
+        y: 30
+        width: 152
+        height: 30
+      spriteId: f37434d5231e829418968e1c584a9324
+    - name: Status Bar_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 69
+        y: 29
+        width: 153
+        height: 28
+      spriteId: 92109001b6c265a43b33f31da7dedaf6
+    - name: Status Bar_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 69
+        y: 29
+        width: 150
+        height: 31
+      spriteId: 121646dac1fa3c248a3a380d40875ec4
+    - name: Status Bar_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 69
+        y: 29
+        width: 154
+        height: 31
+      spriteId: 55606225d04cc3b498cadb3683d3e236
+    - name: Status Bar_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 66
+        y: 29
+        width: 155
+        height: 31
+      spriteId: af79ce5ae40cca647bebbb6d6ca680d6
+    - name: Status Bar_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 69
+        y: 29
+        width: 153
+        height: 31
+      spriteId: 67f2dd08fe7ecb243a397a13f344f8a2
+    - name: Status Bar_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 69
+        y: 29
+        width: 154
+        height: 31
+      spriteId: 4f81fabb5c03097479e1b02d15bb2f9c
+    - name: Status Bar_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 66
+        y: 30
+        width: 152
+        height: 30
+      spriteId: de0aa99512473e44b9dbc6bf6ff8ff47
+    - name: Status Bar_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 28
+      spriteId: 577114081363b2f42806c6b653e4ceb8
+    - name: Status Bar_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: 64fe4cea5587f4b419e5343e7532a2bd
+    - name: Status Bar_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: 072c3850992edaf4bae2d7d0ac9cfbdc
+    - name: Status Bar_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 66
+        y: 29
+        width: 149
+        height: 31
+      spriteId: 12b2396372a2dd94988806a12446265d
+    - name: Status Bar_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: ee70d26c5b45ecd4084e9d0b71442641
+    - name: Status Bar_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: 13e2cd55d30a8414190a6be594ff4f7e
+    - name: Status Bar_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 66
+        y: 30
+        width: 149
+        height: 30
+      spriteId: c5e7e6d7bcccaec42820ccc3d236811a
+    - name: Status Bar_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 68
+        y: 29
+        width: 147
+        height: 31
+      spriteId: b3f13e1c4e0615e45999a1045e15732f
+    - name: Status Bar_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 28
+      spriteId: a9aec6ad495ebc94caa39d26e5a1252d
+    - name: Status Bar_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: fcbffcba73e640b439e65836426f4be4
+    - name: Status Bar_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: f71cd2d7cdba6b143b2fe6f637483cca
+    - name: Status Bar_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 66
+        y: 29
+        width: 149
+        height: 31
+      spriteId: 47a6ea87bb5aeb044a11b779cb57a3af
+    - name: Status Bar_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: fb0eaca0d3b3abb4d96986486f76193f
+    - name: Status Bar_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: a27d4fc93253886498cce45564776dbd
+    - name: Status Bar_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 66
+        y: 30
+        width: 149
+        height: 30
+      spriteId: 3dd57e57e283e48499a822f23dd35e84
+    - name: Status Bar_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 68
+        y: 29
+        width: 147
+        height: 31
+      spriteId: 1c5c3aa444fcd14468af28cd27236fda
+    - name: Status Bar_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 28
+      spriteId: ca79c6715a4b3454fb5bb0a4809f7c35
+    - name: Status Bar_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: e1c6a730e42908b4d89387beb8879121
+    - name: Status Bar_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: a91ee33fee261b543a56017831d9ae87
+    - name: Status Bar_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 66
+        y: 29
+        width: 149
+        height: 31
+      spriteId: f77dc4c3c9b0d844fbb35a706bdf2ceb
+    - name: Status Bar_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: 6939dcafc6417a9409328faaf0685bea
+    - name: Status Bar_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 31
+      spriteId: 5fedb1448ab0d874b9734105f440d40a
+    - name: Status Bar_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 66
+        y: 30
+        width: 149
+        height: 30
+      spriteId: 09a73f567f5d91e4f9370d63535d16b0
+    - name: Status Bar_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 68
+        y: 29
+        width: 147
+        height: 31
+      spriteId: 62aa9579387ccba4596e176e48adf035
+    - name: Status Bar_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 27
+      spriteId: 992253bcf4506794690cb1196a7a8f7e
+    - name: Status Bar_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 30
+      spriteId: 1671e8839d127ed438939befe1c6583e
+    - name: Status Bar_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 30
+      spriteId: 1d4eb2f38b107a641bda73ac18e2b9f6
+    - name: Status Bar_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 66
+        y: 29
+        width: 149
+        height: 30
+      spriteId: 25bfb28af8bee8e44a75b7504fc4976b
+    - name: Status Bar_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 30
+      spriteId: cde82eaf657d9ad49814418d85309117
+    - name: Status Bar_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 30
+      spriteId: 17b8e90eb9d6f264cad626ed61ec63a5
+    - name: Status Bar_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 66
+        y: 30
+        width: 149
+        height: 30
+      spriteId: f69a26e5124edc741aef688bf88d2f4b
+    - name: Status Bar_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 69
+        y: 29
+        width: 146
+        height: 27
+      spriteId: 52ee1c0c1b0c60f43b2b5cec40e397dc
+    - name: Status Bar_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 75
+        y: 32
+        width: 140
+        height: 10
+      spriteId: 9541f3b750fa0c247953382a4b757009
+    - name: Status Bar_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 75
+        y: 32
+        width: 140
+        height: 10
+      spriteId: e26391fe7c85d63419eb128a0c25d5be
+    - name: Status Bar_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 75
+        y: 32
+        width: 140
+        height: 10
+      spriteId: 19be6768d9ee8da4d93ae03baf375adb
+    - name: Status Bar_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 75
+        y: 32
+        width: 140
+        height: 10
+      spriteId: 8fe380ea392a0274780a137a48df93cc
+    - name: Status Bar_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 75
+        y: 32
+        width: 140
+        height: 10
+      spriteId: 263511fe4ed2ef64bb920f61e9980f10
+    - name: Status Bar_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 75
+        y: 32
+        width: 140
+        height: 10
+      spriteId: c3facc666048ea7438a2969ac75900ba
+    - name: Status Bar_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 75
+        y: 32
+        width: 140
+        height: 10
+      spriteId: ed41d7897bbc2b249aa63acc35b0fb59
+    - name: Status Bar_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 75
+        y: 32
+        width: 140
+        height: 10
+      spriteId: 5c60dc06ee374b64b844ab8666a9738c
+    - name: Status Bar_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 1
+        y: 3
+        width: 223
+        height: 57
+      spriteId: 18f31103c8b060743b86f503149bb7b8
+    - name: Status Bar_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: cb5261c1a2ea96c47ac8d67d3d6c258f
+    - name: Status Bar_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 634fb2c97e1082f4ea47a39237fbf3fe
+    - name: Status Bar_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 7f7575c5396584145a7760f0f4c7a0f9
+    - name: Status Bar_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 29d5f898845a44649aaea2e09d1410de
+    - name: Status Bar_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 754ff914d8fb1fe419ea8809ac42be08
+    - name: Status Bar_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 9d0be01169d84954aaf9eb61dbd1f47f
+    - name: Status Bar_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: b1e86da42ca744e4abf74b1b5bfb53ce
+    - name: Status Bar_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 1eb8de43f52ee714f9996cea2b794d35
+    - name: Status Bar_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: d661b899491986d46af137b3a1f02346
+    - name: Status Bar_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 8b1ddd47da6f06b4982b4b818e6c8d1a
+    - name: Status Bar_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 2af41d1d82352e84096d8c6bf924ba13
+    - name: Status Bar_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 1adf7ba8e0909b747864a72f3a010db3
+    - name: Status Bar_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 28938c4352f2f804d83fea2dde30faa5
+    - name: Status Bar_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 12eec4c075e492f458cb620ded946163
+    - name: Status Bar_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 10a21ae5db3ef64408ecf7472e926b84
+    - name: Status Bar_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 4fa19aaaca153fa49b3912409f44dce7
+    - name: Status Bar_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 8dceb7da583f3a34eb87c71682763f4a
+    - name: Status Bar_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 2ffa7efbf40c02547868aa42dbb87fad
+    - name: Status Bar_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 39f60b2eb5d77f544a6c3d59fe6be3f8
+    - name: Status Bar_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 3dae7c47f33941f44a34d302cb8235c9
+    - name: Status Bar_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: bf2752f53f5d7364b97b028a7a77bc62
+    - name: Status Bar_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 1
+        y: 3
+        width: 59
+        height: 56
+      spriteId: 2d3cc810a7b6c594d8bc574db2e1653f
+    - name: Status Bar_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 16
+      spriteId: 26090d28742cfab4597556570d7a0f6c
+    - name: Status Bar_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 16
+      spriteId: e2a45a4eda10a884f8d1fd31c5fb6c25
+    - name: Status Bar_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 16
+      spriteId: 8615cb6f380616644bd6b9a0dd252699
+    - name: Status Bar_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 16
+      spriteId: 34ed6473defaba24dacfa72c8b42aafb
+    - name: Status Bar_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 16
+      spriteId: 3130fd25cf346754e995814fe8e69b00
+    - name: Status Bar_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 16
+      spriteId: 55a6aa5b3b1a6aa4186ec5e8939f797e
+    - name: Status Bar_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 17
+      spriteId: f1086482bd9110d4d95089b473037d5a
+    - name: Status Bar_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 17
+      spriteId: d27b5f8311d14c64691560f5011b0483
+    - name: Status Bar_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 17
+      spriteId: 3ada29ee9f24c504f8acaebe5fafc9bf
+    - name: Status Bar_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 17
+      spriteId: 19b61ec1f582f774294267e08cd587ec
+    - name: Status Bar_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 60
+        y: 4
+        width: 164
+        height: 17
+      spriteId: 93c2579657501e2479871bd908fa4136
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 230, y: 60}

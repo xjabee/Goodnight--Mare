@@ -51,7 +51,7 @@ public class EnemyCombat : MonoBehaviour
 
     void KillEnemy()
     {
-        Instantiate(courage);
+        Instantiate(courage, transform.position, quaternion.identity);
         
         if(sb == null)
         {

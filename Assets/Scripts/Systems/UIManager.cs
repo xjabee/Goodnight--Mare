@@ -23,7 +23,7 @@ public class UIManager : MonoBehaviour
 
     private void Update() 
     {
-        if(courageSystem.currentCourage > hearts.Count)
+        if(courageSystem.currentHP > hearts.Count)
         {
             GameObject addedHeart = Instantiate(heartPrefab,hpArea.transform.position, quaternion.identity);
             hearts.Add(addedHeart.GetComponentInChildren<Image>());
@@ -33,7 +33,7 @@ public class UIManager : MonoBehaviour
         {
             img.sprite = emptyHeart;
         }
-        for (int i = 0; i < courageSystem.currentCourage; i++)
+        for (int i = 0; i < courageSystem.currentHP; i++)
         {
             hearts[i].sprite = fullHeart;
         }

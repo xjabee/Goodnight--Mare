@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public UIManager uIManager;
     public PrefabManager prefabManager;
     public PlayerMovement playerMovement;
+    public LevelLoader levelLoader;
 
 
 }

@@ -128,8 +128,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 79
-      y: 44
+      x: 58
+      y: 84
       width: 14
       height: 31
     spriteID: d9dd99d7c49bb5740a22d63dd6e94134
@@ -140,7 +140,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 79, y: 44}
+    uvTransform: {x: 58, y: 84}
   - name: Doppel_Frame_1
     originalName: 
     pivot: {x: 0.57142854, y: -0.1875}
@@ -148,8 +148,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 57
-      y: 4
+      x: 33
+      y: 124
       width: 14
       height: 32
     spriteID: 49c972416daeaea40afa928860093a27
@@ -160,7 +160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 57, y: 4}
+    uvTransform: {x: 33, y: 124}
   - name: Doppel_Frame_2
     originalName: 
     pivot: {x: 0.5333333, y: -0.1875}
@@ -188,8 +188,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 79
-      y: 83
+      x: 58
+      y: 123
       width: 14
       height: 31
     spriteID: 642b607fccb6a974d8a3f92cf881ca27
@@ -200,7 +200,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 79, y: 83}
+    uvTransform: {x: 58, y: 123}
   - name: Doppel_Frame_4
     originalName: 
     pivot: {x: 0.57142854, y: -0.1875}
@@ -208,8 +208,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 57
-      y: 44
+      x: 33
+      y: 164
       width: 14
       height: 32
     spriteID: 60b96f02408e2314bb0f76faa981c432
@@ -220,7 +220,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 57, y: 44}
+    uvTransform: {x: 33, y: 164}
   - name: Doppel_Frame_5
     originalName: 
     pivot: {x: 0.57142854, y: -0.1875}
@@ -228,8 +228,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 57
-      y: 84
+      x: 33
+      y: 204
       width: 14
       height: 32
     spriteID: 1b4f1b972b9a38b47998f66d6fb63d68
@@ -240,7 +240,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 57, y: 84}
+    uvTransform: {x: 33, y: 204}
   - name: Doppel_Frame_6
     originalName: 
     pivot: {x: 0.57142854, y: -0.1875}
@@ -248,7 +248,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 79
+      x: 58
       y: 4
       width: 14
       height: 32
@@ -260,28 +260,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 79, y: 4}
+    uvTransform: {x: 58, y: 4}
   - name: Doppel_Frame_7
-    originalName: 
-    pivot: {x: 0.49999994, y: -0.1875}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 33
-      y: 4
-      width: 16
-      height: 32
-    spriteID: 2f7a52ae0c4ab104bbe834eb2659652b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 33, y: 4}
-  - name: Doppel_Frame_11
     originalName: 
     pivot: {x: 0.49999994, y: -0.1875}
     alignment: 9
@@ -292,7 +272,7 @@ ScriptedImporter:
       y: 44
       width: 16
       height: 32
-    spriteID: 1fbd8043f6c7bce4b8c66861ab169e60
+    spriteID: 2f7a52ae0c4ab104bbe834eb2659652b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,17 +281,37 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 33, y: 44}
-  - name: Doppel_Frame_8
+  - name: Doppel_Frame_11
     originalName: 
-    pivot: {x: 0.38095233, y: -0.25}
+    pivot: {x: 0.57142854, y: -0.1875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 58
+      y: 44
+      width: 14
+      height: 32
+    spriteID: 1fbd8043f6c7bce4b8c66861ab169e60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 44}
+  - name: Doppel_Frame_8
+    originalName: 
+    pivot: {x: 0.47058818, y: -0.1875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
       y: 4
-      width: 21
-      height: 28
+      width: 17
+      height: 32
     spriteID: 20455f9ab520b194bae6e38e800d60ed
     spriteBone: []
     spriteOutline: []
@@ -320,18 +320,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 33, y: 4}
   - name: Doppel_Frame_9
     originalName: 
-    pivot: {x: 0.34999993, y: -0.25}
+    pivot: {x: 0.39999995, y: -0.1875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 40
+      y: 44
       width: 20
-      height: 28
+      height: 32
     spriteID: 645d74a7c012d364d8ab9cfbd563cc74
     spriteBone: []
     spriteOutline: []
@@ -340,18 +340,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 40}
+    uvTransform: {x: 4, y: 44}
   - name: Doppel_Frame_10
     originalName: 
-    pivot: {x: 0.34999993, y: -0.25}
+    pivot: {x: 0.38095233, y: -0.1875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 76
-      width: 20
-      height: 28
+      y: 4
+      width: 21
+      height: 32
     spriteID: 5eb94c566da743c498b3d5fe4b79de4b
     spriteBone: []
     spriteOutline: []
@@ -360,7 +360,87 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 76}
+    uvTransform: {x: 4, y: 4}
+  - name: Doppel_Frame_8
+    originalName: 
+    pivot: {x: 0.38095233, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 21
+      height: 28
+    spriteID: b63d1618fd71b844bb33cb13a978b30e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
+  - name: Doppel_Frame_9
+    originalName: 
+    pivot: {x: 0.34999993, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 120
+      width: 20
+      height: 28
+    spriteID: f1eb055b1d21be74c872069e22fcc7af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 120}
+  - name: Doppel_Frame_10
+    originalName: 
+    pivot: {x: 0.34999993, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 156
+      width: 20
+      height: 28
+    spriteID: fecbe8237ccf17c40baca93d6fba8305
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 156}
+  - name: Doppel_Frame_11
+    originalName: 
+    pivot: {x: 0.34999993, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 192
+      width: 20
+      height: 28
+    spriteID: 822e11afbeb666b4194173f0c8737e95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 192}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -434,14 +514,38 @@ ScriptedImporter:
         width: 16
         height: 32
       spriteId: 2f7a52ae0c4ab104bbe834eb2659652b
-    - name: Doppel_Frame_11
-      frameIndex: 11
+    - name: Doppel_Frame_12
+      frameIndex: 12
       cellRect:
         x: 39
         y: 6
-        width: 16
+        width: 14
         height: 32
       spriteId: 1fbd8043f6c7bce4b8c66861ab169e60
+    - name: Doppel_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 39
+        y: 6
+        width: 17
+        height: 32
+      spriteId: 20455f9ab520b194bae6e38e800d60ed
+    - name: Doppel_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 39
+        y: 6
+        width: 20
+        height: 32
+      spriteId: 645d74a7c012d364d8ab9cfbd563cc74
+    - name: Doppel_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 39
+        y: 6
+        width: 21
+        height: 32
+      spriteId: 5eb94c566da743c498b3d5fe4b79de4b
     - name: Doppel_Frame_8
       frameIndex: 8
       cellRect:
@@ -449,7 +553,7 @@ ScriptedImporter:
         y: 7
         width: 21
         height: 28
-      spriteId: 20455f9ab520b194bae6e38e800d60ed
+      spriteId: b63d1618fd71b844bb33cb13a978b30e
     - name: Doppel_Frame_9
       frameIndex: 9
       cellRect:
@@ -457,7 +561,7 @@ ScriptedImporter:
         y: 7
         width: 20
         height: 28
-      spriteId: 645d74a7c012d364d8ab9cfbd563cc74
+      spriteId: f1eb055b1d21be74c872069e22fcc7af
     - name: Doppel_Frame_10
       frameIndex: 10
       cellRect:
@@ -465,7 +569,15 @@ ScriptedImporter:
         y: 7
         width: 20
         height: 28
-      spriteId: 5eb94c566da743c498b3d5fe4b79de4b
+      spriteId: fecbe8237ccf17c40baca93d6fba8305
+    - name: Doppel_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 40
+        y: 7
+        width: 20
+        height: 28
+      spriteId: 822e11afbeb666b4194173f0c8737e95
     linkedCells: []
     parentIndex: -1
   platformSettings: []

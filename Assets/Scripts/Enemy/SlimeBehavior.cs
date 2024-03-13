@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class SlimeBehavior : MonoBehaviour
 {
-
-    public int HP = 2;
-    int hitcount = 0;
     public float jumpPower = 5;
     public float jumpFrequency = 2f;
     SpriteRenderer sr;

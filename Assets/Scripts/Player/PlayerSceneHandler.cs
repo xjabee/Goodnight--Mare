@@ -13,6 +13,7 @@ public class PlayerSceneHandler : MonoBehaviour
     Rigidbody2D rb;
     PlayerMovement playerMovement;
     bool isDamageable =true;
+    SceneHandler sceneHandler;
 
     
 
@@ -21,7 +22,7 @@ public class PlayerSceneHandler : MonoBehaviour
         this.gameObject.transform.position = startPosition.transform.position;
         courageSystem = GameManager.instance.courageSystem;
         playerMovement = GameManager.instance.playerMovement;
-
+        sceneHandler = GameManager.instance.scheneHandler;
         
     }
     private void Update() {
@@ -61,13 +62,22 @@ public class PlayerSceneHandler : MonoBehaviour
             {
                 playerMovement.KnockFromRight = true;
             }
-
             StartCoroutine(GetHurt());
-            courageSystem.RemoveCourage(1);
+            if(courageSystem.currentHP <= 0)
+            {
+                EndGame();
+            }
+            else{
+
+                courageSystem.RemoveHP(1);
+            }
         }
     }
 
-
+    public void EndGame()
+    {
+        sh.ResetLevel();
+    }
 
     IEnumerator GetHurt()
     {
