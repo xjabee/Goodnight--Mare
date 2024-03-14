@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VialHandler : MonoBehaviour
+public class HPController : MonoBehaviour
 {
     Animator animator;
 
-    public int vialMeter = 0;
-    public bool reFill = false;
+    public int hpCount = 5;
     
     // Use this for initialization
     void Start ()
@@ -18,16 +17,16 @@ public class VialHandler : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
-        animator.SetInteger("vialMeter", vialMeter);
-
-        if (vialMeter == 3 && Input.GetKey(KeyCode.E))
-        {
-            animator.SetInteger("Vial0", 0);
-        }
+        animator.SetInteger("hpCount", hpCount);
 
         if(Input.GetKeyDown(KeyCode.G))
         {
-            vialMeter++;
+            hpCount++;
+        }
+
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            hpCount--;
         }
     }
 }
