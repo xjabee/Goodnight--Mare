@@ -14,6 +14,7 @@ public class PlayerSceneHandler : MonoBehaviour
     PlayerMovement playerMovement;
     bool isDamageable =true;
     SceneHandler sceneHandler;
+    public Animator am;
 
     
 
@@ -52,6 +53,7 @@ public class PlayerSceneHandler : MonoBehaviour
         }
         if(c.transform.tag =="Enemy" && isDamageable)
         {
+            am.SetTrigger("Attacked");
             
             playerMovement.KBCounter = playerMovement.KBTotalTime;
             if(c.transform.position.x <= transform.position.x)
