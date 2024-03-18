@@ -10,6 +10,7 @@ public class PlayerSceneHandler : MonoBehaviour
     private Transform startPosition;
     CourageSystem courageSystem;
     public GameObject[] enemyCol;
+    public GameObject endPanel;
     Rigidbody2D rb;
     PlayerMovement playerMovement;
     bool isDamageable =true;
@@ -80,6 +81,7 @@ public class PlayerSceneHandler : MonoBehaviour
     {
         sh.ResetLevel();
     }
+
 
     IEnumerator GetHurt()
     {

@@ -23,4 +23,13 @@ public class GameManager : MonoBehaviour
     public HPController hPController;
 
 
+
+    public GameObject panel;
+    public void Finale()
+    {
+        Time.timeScale = 0f;
+        panel.SetActive(true);
+    }
+
+
 }

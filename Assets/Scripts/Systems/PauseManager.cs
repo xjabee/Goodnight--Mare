@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Search;
 using UnityEngine;
 
 public class PauseManager : MonoBehaviour
@@ -37,4 +36,5 @@ public class PauseManager : MonoBehaviour
         panel.SetActive(false);
         isGamePaused = false;
     }
+
 }

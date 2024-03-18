@@ -5,8 +5,7 @@ using UnityEngine;
 public class BossSlimeMechanics : MonoBehaviour
 {
     Transform player;  
-    Rigidbody2D rb;
-    // Start is called before the first frame update
+    Rigidbody2D rb;    // Start is called before the first frame update
     void Start()
     {
         player = GameManager.instance.playerTransform;
@@ -18,12 +17,14 @@ public class BossSlimeMechanics : MonoBehaviour
     void Update()
     {
         //transform.position = Vector2.MoveTowards(transform.position, player.transform.position, 5*Time.deltaTime);
+        Debug.Log(GetComponent<EnemyCombat>().HP);
 
-        if(this.GetComponent<EnemyCombat>().HP == 20)
+        if(GetComponent<EnemyCombat>().HP == 1)
         {
-            transform.localScale = new Vector3(transform.localScale.x/2, transform.localScale.y/2, transform.localScale.z/2);
-            Debug.Log("IM BELOW 20 HP");
+            GameManager.instance.panel.SetActive(true);
+            Debug.Log("DID I DIE?");
         }
+        
     }
 
     IEnumerator Jump()

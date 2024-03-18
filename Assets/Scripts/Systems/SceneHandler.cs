@@ -16,12 +16,15 @@ public class SceneHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.F1))
+        {
+            NextLevel();
+        }
     }
 
     public void NewGame()
     {
-        levelLoader.LoadNextLevel(1);
+        levelLoader.LoadNextLevel(2);
     }
 
     public void ExitApp()
@@ -32,7 +35,9 @@ public class SceneHandler : MonoBehaviour
     public void NextLevel()
     {
         //In the future load scene to a random number if the team decides that is the play.
-        levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex+1);
+        levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex +1);
+        currentLevel++;
+        
     }
     public void ResetLevel()
     {
