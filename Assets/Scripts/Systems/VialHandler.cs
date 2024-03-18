@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VialHandler : MonoBehaviour
 {
-    Animator animator;
+    public Animator animator;
 
     public int vialMeter = 0;
     public bool reFill = false;
@@ -18,16 +18,16 @@ public class VialHandler : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
-        animator.SetInteger("vialMeter", vialMeter);
+        // animator.SetInteger("vialMeter", vialMeter);
 
-        if (vialMeter == 3 && Input.GetKey(KeyCode.E))
-        {
-            animator.SetInteger("Vial0", 0);
-        }
+        // if (vialMeter == 3 && Input.GetKey(KeyCode.E))
+        // {
+        //     animator.SetInteger("Vial0", 0);
+        // }
 
-        if(Input.GetKeyDown(KeyCode.G))
-        {
-            vialMeter++;
-        }
+        // if(Input.GetKeyDown(KeyCode.G))
+        // {
+        //     vialMeter++;
+        // }
     }
 }

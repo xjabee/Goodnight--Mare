@@ -190,6 +190,8 @@ MonoBehaviour:
   prefabManager: {fileID: 0}
   playerMovement: {fileID: 2132651501}
   levelLoader: {fileID: 0}
+  vialHandler: {fileID: 2067419411}
+  hPController: {fileID: 1899951191}
 --- !u!114 &108661104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &399785688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -415,6 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1a2a9f4aef9d314cb12306ed38b624e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentLevel: 0
   levelLoader: {fileID: 1255887117}
 --- !u!1 &683009705
 GameObject:
@@ -1494,6 +1497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 625f865a97a0a29409230a57f96be46c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   hpCount: 5
 --- !u!95 &1899951192
 Animator:
@@ -1701,6 +1705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e0a96a81f132c64780778a99ddc5d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   vialMeter: 0
   reFill: 0
 --- !u!95 &2067419412
@@ -1927,7 +1932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26cc38f650bcfe943a66be2ca8e12387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  courageCount: 3
+  courageCount: 0
   hP: 5
   currentHP: 0
   currentCourage: 0

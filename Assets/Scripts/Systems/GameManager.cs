@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public PrefabManager prefabManager;
     public PlayerMovement playerMovement;
     public LevelLoader levelLoader;
+    public VialHandler vialHandler;
+    public HPController hPController;
 
 
 }

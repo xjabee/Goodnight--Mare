@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HPController : MonoBehaviour
 {
-    Animator animator;
+    public Animator animator;
 
     public int hpCount = 5;
     
@@ -17,16 +17,16 @@ public class HPController : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
-        animator.SetInteger("hpCount", hpCount);
+        // animator.SetInteger("hpCount", hpCount);
 
-        if(Input.GetKeyDown(KeyCode.G))
-        {
-            hpCount++;
-        }
+        // if(Input.GetKeyDown(KeyCode.G))
+        // {
+        //     hpCount++;
+        // }
 
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            hpCount--;
-        }
+        // if(Input.GetKeyDown(KeyCode.F))
+        // {
+        //     hpCount--;
+        // }
     }
 }
