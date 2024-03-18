@@ -1,0 +1,854 @@
+fileFormatVersion: 2
+guid: 6609313287943bd4882f39d59c2abed2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 8
+  _sprites:
+  - name: Cave_tilesetHalfSize_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 8
+      height: 8
+    spriteID: 40c8423dd29008e419f19bf7f998ca57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8
+      y: 32
+      width: 8
+      height: 8
+    spriteID: 93ec673563837bf46ab112381a21a761
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 8
+      height: 8
+    spriteID: 4eb1ee9ec1ba70e4899d6d5db5b5dba4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 32
+      width: 8
+      height: 8
+    spriteID: bc454982ed679e84896cd1b2c57d78c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 8
+      height: 8
+    spriteID: 3fb70446f5b62a9479edc418c59d3f61
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 32
+      width: 8
+      height: 8
+    spriteID: cac6c8dea11f35c43ae35f250b16a631
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 8
+      height: 8
+    spriteID: d3995ae8b3d5c06479bf448f860bace5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 32
+      width: 8
+      height: 8
+    spriteID: 995a3e2265d187148a1cc4288843945f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 8
+      height: 8
+    spriteID: fc4f430ca97bba34f9c6af5cae7e8483
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 32
+      width: 8
+      height: 8
+    spriteID: a9eb052f9e591d847a79b11d53abd82c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 8
+      height: 8
+    spriteID: 0ed9e366bd09ba2478d5c76fb3a6fc70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 32
+      width: 8
+      height: 8
+    spriteID: 7a77e73c1a55e3d45a6225db68eea533
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 24
+      width: 8
+      height: 8
+    spriteID: ffe56eed4d6ba8c42b367b2f78cebb6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8
+      y: 24
+      width: 8
+      height: 8
+    spriteID: 0383a00295029de4c9b3c3cca4e7c1a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 24
+      width: 8
+      height: 8
+    spriteID: ed433f6f654948e4ea139ba95510c377
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 24
+      width: 8
+      height: 8
+    spriteID: 0fbe4d6f795dcb84999ec762a900059d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 24
+      width: 8
+      height: 8
+    spriteID: ddab4e984fb050943982f8bb268a45f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 24
+      width: 8
+      height: 8
+    spriteID: 8e1592ed897523642a89599990011d9c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 24
+      width: 8
+      height: 8
+    spriteID: 0a1549d4fe2cf8540a70391609d0930d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 24
+      width: 8
+      height: 8
+    spriteID: e2909ea62a4b80a4994e8fefe9e5d77d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 24
+      width: 8
+      height: 8
+    spriteID: 9fc9da9212d8f4c4e9a152ace40c1cb9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 24
+      width: 8
+      height: 8
+    spriteID: 93a6b055f0b636947b9a9551d108bdd2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 24
+      width: 8
+      height: 8
+    spriteID: 1c1cb5094b4a0bf4ba83a289c665ba36
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 24
+      width: 8
+      height: 8
+    spriteID: ead51d1eec25bd44cb995d449f4f7046
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 8
+      height: 8
+    spriteID: 728667f020d69f54fa4943b0d8480e8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8
+      y: 16
+      width: 8
+      height: 8
+    spriteID: 437c4a593e89cea44bee51e97eb8dc60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 8
+      height: 8
+    spriteID: 507f45988598fa44a9ffa0d14d923b79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 16
+      width: 8
+      height: 8
+    spriteID: 045057a14adca66479a6518bdb96ab14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 8
+      height: 8
+    spriteID: 73f2f5d840a39ec4fb63e18bf82165c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 16
+      width: 8
+      height: 8
+    spriteID: af093295e37cbbd46bdb11c472429268
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 8
+      height: 8
+    spriteID: c5310cf31bae023418e411de3aca3d58
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 16
+      width: 8
+      height: 8
+    spriteID: d64bff0e6464f7246a7a356924e2862c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 8
+      height: 8
+    spriteID: 2e812392bb837fc4ca5cc3a93e9f8f32
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 16
+      width: 8
+      height: 8
+    spriteID: fb18b12e6576c9e46baa13fd53a11e53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 8
+      height: 8
+    spriteID: d61b14cb91322cf45ae3c3f17814f241
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 16
+      width: 8
+      height: 8
+    spriteID: 7f6fba1d7f036f34c9859bec5c71321c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 8
+      width: 8
+      height: 8
+    spriteID: c498b6085f7bf8947aaba306cbdec67a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8
+      y: 8
+      width: 8
+      height: 8
+    spriteID: 5aadb875f05b49441b4929da21b0b05c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 8
+      width: 8
+      height: 8
+    spriteID: 8cf027fa3ac56da4f84edba1110abe9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 8
+      width: 8
+      height: 8
+    spriteID: 6c265fb29627a024cbfac16b17468e19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 8
+      width: 8
+      height: 8
+    spriteID: b4ea1c06cf4a8854a8be8ce6b03fa914
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 8
+      width: 8
+      height: 8
+    spriteID: c461d840557dcd74e9c4341b853ee5b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 8
+      width: 8
+      height: 8
+    spriteID: 4bd60d4fe2b7b024d8ef20ca207239e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 8
+      width: 8
+      height: 8
+    spriteID: ade9118f35cf17e46b81a2c1c5898dce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 8
+      width: 8
+      height: 8
+    spriteID: a8dc8d670cb0186498d90e8664edcfa3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 8
+      width: 8
+      height: 8
+    spriteID: 5c0f67c19b8741c4698df41340fa9c4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 8
+      width: 8
+      height: 8
+    spriteID: c320a61992f1cff4a8ae5348d043a385
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 8
+      width: 8
+      height: 8
+    spriteID: 3222ca5d17304a44583b2394959fa7d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 2836003d17599574e8c3d254bb7ec211
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 8
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 41716776bc2aa474f89dfb0a7066c4c6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 8
+      height: 8
+    spriteID: d0b9a920d17cff24c85d2f7615c7d4bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 396fa9784662c91459632c462010c9a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 5e25efa714c237d43a0737c73f2c5e70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 826bcd93050e99646bebc4c6effbc5de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 8
+      height: 8
+    spriteID: cddf057ed34aecc42b89b5d6b4ae5b0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 8c1368861a0a9e14cb11d02df11e30d3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 97e17dc73404e6c4880b6eebf9d9ac6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 72
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 910f9aef2bb326b4c90b7abb36d6e442
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 2898c362022854a46922fba756e55e66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Cave_tilesetHalfSize_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 0
+      width: 8
+      height: 8
+    spriteID: 40cb153cbd589714fae5d3de54a5c055
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []

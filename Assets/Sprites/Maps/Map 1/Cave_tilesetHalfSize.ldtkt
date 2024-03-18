@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 5,
+    "__cWid": 12,
+    "cachedPixelData": {
+      "opaqueTiles": "000000001111011000111111011100010010110000011110110100000000",
+      "averageColors": "e776e565f776e886e776e887e665e665f443f332f554f554f665f000f554e887e8870000f665f554f332f443f554f444f775f554f665f554f7760000f665f665f665e665f4430000f443f332e776f776e7860000f665f565f665f565f3320000f333f333f775f66500000000000000000000300020001000"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Cave_tilesetHalfSize",
+    "padding": 0,
+    "pxHei": 40,
+    "pxWid": 96,
+    "relPath": "cave_tilesetHalfSize.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 8,
+    "uid": 149
+  }
+}
