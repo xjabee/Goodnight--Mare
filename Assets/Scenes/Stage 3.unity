@@ -755,6 +755,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: End Zone
       objectReference: {fileID: 0}
+    - target: {fileID: 5365783196182613044, guid: 4d3cba495291c324999a45cead004002, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365783196182613044, guid: 4d3cba495291c324999a45cead004002, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.599
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365783196182613044, guid: 4d3cba495291c324999a45cead004002, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 3.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365783196182613044, guid: 4d3cba495291c324999a45cead004002, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 7.47
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,7 @@ public class VialHandler : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
+      
         // animator.SetInteger("vialMeter", vialMeter);
 
         // if (vialMeter == 3 && Input.GetKey(KeyCode.E))
