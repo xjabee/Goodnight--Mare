@@ -41,12 +41,8 @@ public class SceneHandler : MonoBehaviour
     }
     public void ResetLevel()
     {
-        if(SceneManager.GetSceneByName("Essentials").isLoaded)
-        {
-            SceneManager.UnloadSceneAsync("Essentials");
-            SceneManager.LoadScene("Essentials", LoadSceneMode.Single);
-        }
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex,LoadSceneMode.Additive);
+
+        levelLoader.LoadNextLevel(SceneManager.GetActiveScene().buildIndex);
         
 
     }
